@@ -1,0 +1,301 @@
+2017-06-29 15:20:50,678 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 15:20:52,552 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 15:20:52,553 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:20:52,567 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 15:20:52,568 INFO  [ConsoleLogs] value Itc Hotel Grand Maratha Sheraton & Tower,, Sahar Village, Andheri East, Mumbai, Maharashtra 400059, India  not  found in the list 
+2017-06-29 15:21:39,615 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:21:45,639 INFO  [ConsoleLogs] get request   
+2017-06-29 15:21:45,641 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:21:45,645 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:21:45,647 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:28:23,606 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:28:25,606 INFO  [ConsoleLogs] get request   
+2017-06-29 15:28:25,607 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:28:25,612 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:28:25,615 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:29:25,795 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:29:27,677 INFO  [ConsoleLogs] get request   
+2017-06-29 15:29:27,679 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:29:27,686 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:32:51,991 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:34:10,951 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:34:12,865 INFO  [ConsoleLogs] get request   
+2017-06-29 15:34:12,866 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:34:12,872 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:34:17,176 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:36:57,177 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:36:59,660 INFO  [ConsoleLogs] get request   
+2017-06-29 15:36:59,661 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:36:59,667 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:36:59,671 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:37:58,550 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 15:39:46,483 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:39:47,996 INFO  [ConsoleLogs] get request   
+2017-06-29 15:39:47,997 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:39:48,002 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:39:48,005 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:39:48,006 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 15:39:48,007 INFO  [ConsoleLogs] value mem123  not found in the list 
+2017-06-29 15:39:48,007 INFO  [ConsoleLogs] value mem123  not  found in the list 
+2017-06-29 15:39:48,749 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 15:39:50,669 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 15:39:50,670 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:39:50,698 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 15:39:50,700 INFO  [ConsoleLogs] value Itc Hotel Grand Maratha Sheraton & Tower,, Sahar Village, Andheri East, Mumbai, Maharashtra 400059, India  not  found in the list 
+2017-06-29 15:40:12,689 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:40:14,386 INFO  [ConsoleLogs] get request   
+2017-06-29 15:40:14,389 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:40:14,397 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:40:14,400 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:40:14,401 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 15:40:14,401 INFO  [ConsoleLogs] value No   found in the list 
+2017-06-29 15:40:14,924 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 15:40:15,833 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 15:40:15,834 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:40:15,843 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 15:40:15,844 INFO  [ConsoleLogs] value Itc Hotel Grand Maratha Sheraton & Tower,, Sahar Village, Andheri East, Mumbai, Maharashtra 400059, India  not  found in the list 
+2017-06-29 15:43:30,856 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:43:32,372 INFO  [ConsoleLogs] get request   
+2017-06-29 15:43:32,373 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:43:32,377 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:43:32,380 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:43:32,381 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 15:43:32,382 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 15:43:52,369 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:43:53,793 INFO  [ConsoleLogs] get request   
+2017-06-29 15:43:53,794 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:43:53,799 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:43:53,802 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:43:53,803 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 15:43:53,804 INFO  [ConsoleLogs] value rajorei  not found in the list 
+2017-06-29 15:43:53,804 INFO  [ConsoleLogs] value rajorei  not  found in the list 
+2017-06-29 15:44:52,207 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:44:54,018 INFO  [ConsoleLogs] get request   
+2017-06-29 15:44:54,019 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:44:54,024 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:44:54,028 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:44:58,070 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 15:45:12,546 INFO  [ConsoleLogs] value rajorei  not found in the list against attribute alpha2Code 
+2017-06-29 15:45:55,402 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 15:45:56,895 INFO  [ConsoleLogs] get request   
+2017-06-29 15:45:56,895 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 15:45:56,900 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 15:45:56,903 INFO  [ConsoleLogs] converted to array 
+2017-06-29 15:45:56,904 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 15:45:56,905 INFO  [ConsoleLogs] value rajorei  not found in the list against attribute alpha2Code 
+2017-06-29 16:17:19,996 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:17:21,519 INFO  [ConsoleLogs] get request   
+2017-06-29 16:17:21,520 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:17:21,525 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:17:21,528 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:17:21,529 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:17:21,530 INFO  [ConsoleLogs] value rajorei  not found in the list against attribute alpha2Code 
+2017-06-29 16:17:22,129 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:17:23,673 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:17:23,674 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:17:23,694 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:17:23,695 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:17:51,245 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:17:52,718 INFO  [ConsoleLogs] get request   
+2017-06-29 16:17:52,720 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:17:52,726 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:17:52,733 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:17:52,734 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:17:52,735 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:17:53,300 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:17:54,158 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:17:54,158 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:17:54,167 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:17:54,167 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:27:22,306 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:27:23,808 INFO  [ConsoleLogs] get request   
+2017-06-29 16:27:23,809 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:27:23,813 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:27:23,815 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:27:23,816 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:27:23,817 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:27:24,317 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:27:25,860 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:27:25,862 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:27:25,872 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:27:25,873 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:27:26,109 INFO  [ConsoleLogs] base uri to be open is http://127.0.0.1:5984/restassured 
+2017-06-29 16:32:51,303 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:32:52,867 INFO  [ConsoleLogs] get request   
+2017-06-29 16:32:52,868 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:32:52,873 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:32:52,877 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:32:52,878 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:32:52,879 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:32:53,423 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:32:54,296 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:32:54,297 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:32:54,316 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:32:54,317 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:34:27,770 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:34:29,617 INFO  [ConsoleLogs] get request   
+2017-06-29 16:34:29,618 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:34:29,623 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:34:29,626 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:34:29,627 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:34:33,597 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:34:40,043 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:34:40,852 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:34:40,853 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:34:40,866 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:35:00,748 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:36:48,858 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:36:50,788 INFO  [ConsoleLogs] get request   
+2017-06-29 16:36:50,789 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:36:50,792 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:36:50,794 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:36:50,795 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:36:50,796 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:36:51,478 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:36:52,641 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:36:52,641 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:36:52,658 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:36:52,658 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:38:22,414 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:38:24,328 INFO  [ConsoleLogs] get request   
+2017-06-29 16:38:24,329 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:38:24,335 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:38:24,338 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:38:24,339 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:38:24,340 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:40:17,570 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:40:19,116 INFO  [ConsoleLogs] get request   
+2017-06-29 16:40:19,117 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:40:19,121 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:40:19,124 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:40:19,125 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:40:19,126 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:40:19,128 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:40:19,616 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:40:21,068 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:40:21,069 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:40:21,091 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:40:21,092 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:40:21,092 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:40:39,710 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:41:23,111 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:41:24,634 INFO  [ConsoleLogs] get request   
+2017-06-29 16:41:24,635 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:41:24,639 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:41:24,642 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:41:24,643 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:41:24,644 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:41:24,645 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:41:25,176 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:41:25,961 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:41:25,962 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:41:25,969 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:41:25,970 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:41:25,970 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:41:44,930 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:41:46,877 INFO  [ConsoleLogs] get request   
+2017-06-29 16:41:46,878 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:41:46,883 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:41:46,887 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:41:46,887 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:41:46,888 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:42:56,465 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:42:58,124 INFO  [ConsoleLogs] get request   
+2017-06-29 16:42:58,124 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:42:58,128 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:42:58,131 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:42:58,132 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:42:58,132 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:42:58,134 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:42:58,718 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:42:59,555 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:42:59,557 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:42:59,583 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:42:59,584 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:42:59,590 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:43:38,479 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:43:40,306 INFO  [ConsoleLogs] get request   
+2017-06-29 16:43:40,307 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:43:40,312 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:43:40,315 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:43:40,316 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:43:40,316 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:44:12,539 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:44:13,164 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:44:14,189 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:44:14,190 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:44:14,207 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:44:14,209 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:44:15,912 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:49:18,067 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:51:00,898 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:51:02,764 INFO  [ConsoleLogs] get request   
+2017-06-29 16:51:02,765 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:51:02,769 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:51:02,772 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:51:02,773 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:51:02,774 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:53:26,974 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:53:28,972 INFO  [ConsoleLogs] get request   
+2017-06-29 16:53:28,975 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:53:28,981 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:53:28,986 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:53:28,988 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:53:28,992 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:54:37,935 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:54:39,569 INFO  [ConsoleLogs] get request   
+2017-06-29 16:54:39,570 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:54:39,574 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:54:39,577 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:54:39,578 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:54:39,579 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:54:39,580 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:54:40,093 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:54:41,767 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:54:41,768 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:54:41,778 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:54:41,779 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:54:41,780 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:55:41,233 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:56:08,090 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 16:56:09,711 INFO  [ConsoleLogs] get request   
+2017-06-29 16:56:09,712 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:56:09,718 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 16:56:09,720 INFO  [ConsoleLogs] converted to array 
+2017-06-29 16:56:09,721 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 16:56:09,721 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 16:56:09,723 INFO  [ConsoleLogs] closing test case  
+2017-06-29 16:56:10,231 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 16:56:10,995 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 16:56:10,996 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 16:56:11,002 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 16:56:11,003 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 16:56:11,003 INFO  [ConsoleLogs] closing test case  
+2017-06-29 17:04:15,468 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 17:04:17,161 INFO  [ConsoleLogs] get request   
+2017-06-29 17:04:17,165 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 17:04:17,170 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 17:04:17,173 INFO  [ConsoleLogs] converted to array 
+2017-06-29 17:04:17,173 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 17:04:17,174 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 17:04:17,175 INFO  [ConsoleLogs] closing test case  
+2017-06-29 17:04:17,827 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 17:04:18,770 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 17:04:18,771 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 17:04:18,807 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 17:04:18,808 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 17:04:18,809 INFO  [ConsoleLogs] closing test case  
+2017-06-29 17:05:02,136 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2017-06-29 17:05:03,755 INFO  [ConsoleLogs] get request   
+2017-06-29 17:05:03,757 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 17:05:03,762 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2017-06-29 17:05:03,764 INFO  [ConsoleLogs] converted to array 
+2017-06-29 17:05:03,765 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2017-06-29 17:05:03,766 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2017-06-29 17:05:03,767 INFO  [ConsoleLogs] closing test case  
+2017-06-29 17:05:04,286 INFO  [ConsoleLogs] base uri to be open is https://maps.googleapis.com 
+2017-06-29 17:05:05,717 INFO  [ConsoleLogs] get request  /maps/api/place/textsearch/json 
+2017-06-29 17:05:05,717 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2017-06-29 17:05:05,728 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
+2017-06-29 17:05:05,729 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
+2017-06-29 17:05:05,729 INFO  [ConsoleLogs] closing test case  

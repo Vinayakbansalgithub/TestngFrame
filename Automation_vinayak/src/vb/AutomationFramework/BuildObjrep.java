@@ -228,7 +228,7 @@ public class BuildObjrep {
 			}
 
 			try {
-				for (int v = 1; v < worksheetTestcase.getLastRowNum(); v++) {
+				for (int v = 1; v <=worksheetTestcase.getLastRowNum(); v++) {
 					TestCaseHashmap.clear();
 
 					TastcaseSteps(v, worksheetTestcase);
@@ -285,7 +285,7 @@ public class BuildObjrep {
 
 				} else {
 					ActionClass.driver.close();
-					// ActionClass.driver2.close();
+					
 					ConsoleLogs.INFOFail(e.getCause().getMessage());
 					ExtentHTML.fail(e.getCause().getMessage());
 				}
@@ -383,15 +383,16 @@ public class BuildObjrep {
 		emailBody.append("<body>");
 		emailBody.append("<div style='padding:20px'>");
 		emailBody.append("<h2>Automation Progress Report</h2>");
-		emailBody.append("<b>QA engineer</b> : Vinayak bansal<br/>");
-		emailBody.append("<b>Project </b> : Vroozi Inc.<br/>");
+		emailBody.append("<b>QA Engg.</b> : Vinayak bansal<br/>");
+		emailBody.append("<b>Project </b> : Puresoftware Pvt. Ltd.<br/>");
 		emailBody.append("<br/>");
 		
 		emailBody.append("<table border='1' style='border-collapse:collapse;text-align:center'>");
 		emailBody.append("<tr>");
 		emailBody.append(" <th style='padding:5px'>Test case name</th>");
 		emailBody.append("<th style='padding:5px'>Status</th>");
-		emailBody.append("<th style='padding:5px'>Environment and/or Browser</th>");
+		emailBody.append("<th style='padding:5px'>Environment and/Or Browser</th>");
+		emailBody.append("<th style='padding:5px'>Category and/Or Module</th>");
 		emailBody.append("</tr>");
 		
 		
@@ -451,7 +452,7 @@ public class BuildObjrep {
 
 		String pathsuit = System.getProperty("user.dir");
 		String completepathsuit = pathsuit + "\\scripts\\Testsuit.xlsx";
-		 completepathsuit = "D:\\workspace\\AutomationFramework\\scripts\\Testsuit.xlsx";
+		// completepathsuit = "D:\\workspace\\AutomationFramework\\scripts\\Testsuit.xlsx";
 
 		File filesuit = new File(completepathsuit);
 
@@ -470,7 +471,7 @@ public class BuildObjrep {
 				+ worksheetTestsuit.getLastRowNum());
 
 		int countTS = 1, j = 1;
-		String TestcaseidValue, DescriptionValue, RunModeValue, SheetNameValue, BrowserValue, filelocationValue;
+		String TestcaseidValue, DescriptionValue, RunModeValue, SheetNameValue, BrowserValue, filelocationValue,Category;
 		while (worksheetTestsuit.getRow(countTS) != null) {
 			countTS++;
 		}
@@ -493,6 +494,9 @@ public class BuildObjrep {
 
 			cellkey = worksheetTestsuit.getRow(j).getCell(5);
 			BrowserValue = cellkey.getStringCellValue();
+			
+			cellkey = worksheetTestsuit.getRow(j).getCell(6);
+			Category = cellkey.getStringCellValue();
 
 			TestSuitHashmap.put("Testcaseid", TestcaseidValue);
 			TestSuitHashmap.put("Description", DescriptionValue);
@@ -500,6 +504,8 @@ public class BuildObjrep {
 			TestSuitHashmap.put("File location", filelocationValue);
 			TestSuitHashmap.put("SheetName", SheetNameValue);
 			TestSuitHashmap.put("Browser", BrowserValue);
+			TestSuitHashmap.put("Category/Module", Category);
+
 			System.out
 					.println("------------------------------------------------------");
 			System.out.println("Test case "
@@ -538,7 +544,7 @@ public class BuildObjrep {
 		System.out
 				.println("-------------Appium server has been closed---------------");
 
-		if (totaltestcaserun >= 5) {
+		if (totaltestcaserun >= 1) {
 			SendReport.sendmail();
 		}
 		// ActionClass.recorder.stop();

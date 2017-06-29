@@ -57,9 +57,21 @@ public class SendReport {
 
 			// message part
 			multipart.addBodyPart(messageBodyPart);
+			
+			
+			
+			
+			
+			
+			
 
 			BuildObjrep.emailBody.append("</tr>");
 			BuildObjrep.emailBody.append(" </table>");
+			
+			BuildObjrep.emailBody.append("<tr>");
+			BuildObjrep.emailBody.append(" <th style='padding:5px'>*Download report to see it in a proper format </th>");
+			BuildObjrep.emailBody.append("</tr>");
+			
 			BuildObjrep.emailBody.append("</div>");
 			BuildObjrep.	emailBody.append("</body>");
 

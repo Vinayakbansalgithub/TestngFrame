@@ -2324,10 +2324,16 @@ System.out.println("chrome check");
 					attribute);
 			if (attributeValue.equalsIgnoreCase(pageAttributevalue)) {
 				flag = true;
-				msg = "value " + attributeValue + "   found in the list";
+				msg = "value " + attributeValue + "   found in the list against attribute "+attribute;
 
 				ConsoleLogs.INFOPass(msg);
 				ExtentHTML.pass(msg);
+			}
+			else{
+				flag = false;
+
+				/*ConsoleLogs.INFOFail(msg);
+				ExtentHTML.fail(msg);*/
 			}
 		}
 
@@ -2347,7 +2353,7 @@ System.out.println("chrome check");
 		}
 		if (flag == false) {
 
-			msg = "value " + attributeValue + "  not  found in the list";
+			msg = "value " + attributeValue + "  not found in the list against attribute "+attribute;
 
 			ConsoleLogs.INFOFail(msg);
 			ExtentHTML.fail(msg);
@@ -2386,7 +2392,9 @@ System.out.println("chrome check");
 		BuildObjrep.emailBody.append("<td>"
 				+ ExtentHTML.testrep.getRunStatus().toString() + "</td>");
 		BuildObjrep.emailBody.append("<td>"
-				+ BuildObjrep.TestSuitHashmap.get("Environment") + "</td>");
+				+ BuildObjrep.TestSuitHashmap.get("Browser") + "</td>");
+		BuildObjrep.emailBody.append("<td>"
+				+ BuildObjrep.TestSuitHashmap.get("Category/Module") + "</td>");
 		BuildObjrep.emailBody.append("</tr>");
 
 		ConsoleLogs.INFOPass(msg);
