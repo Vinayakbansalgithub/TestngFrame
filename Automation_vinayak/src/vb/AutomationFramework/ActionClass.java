@@ -15,6 +15,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -93,6 +94,7 @@ import javax.net.ssl.SSLSocket;
 
 // api imports
 
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -166,7 +168,10 @@ public class ActionClass {
 	public static ArrayList<String> nullCount = new ArrayList<String>();
 
 	static String attribute;
-	static String attributeValue;
+	static String attributeValueApi;
+	static String attributeValueScript;
+
+	
 
 	static String[] parameters;
 	static Integer totalParameters;
@@ -1949,6 +1954,27 @@ System.out.println("chrome check");
 			IllegalArgumentException, InterruptedException {
 		ExtentHTML.starttest();
 		// System.out.println("__________________ergrre_____________");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	/*	String thePath = BuildObjrep.objKeyValue
+				.get(BuildObjrep.TestCaseHashmap.get("Elementlocation"));
+				
+				
+				
+			URLEncoder.encode(thePath, "UTF-8"); 
+		
+		RestAssured.baseURI = BuildObjrep.objKeyValue
+				.get(thePath);*/
+		
 		RestAssured.baseURI = BuildObjrep.objKeyValue
 				.get(BuildObjrep.TestCaseHashmap.get("Elementlocation"));
 
@@ -1975,6 +2001,9 @@ System.out.println("chrome check");
 			InvocationTargetException, NoSuchMethodException,
 			SecurityException, IllegalAccessException,
 			IllegalArgumentException, InterruptedException {
+		
+		System.out.println("here");
+		
 		if (BuildObjrep.TestCaseHashmap.get("Parameter") != null
 				&& !BuildObjrep.TestCaseHashmap.get("Parameter").equals("")) {
 			parameters = BuildObjrep.TestCaseHashmap.get("Parameter")
@@ -2064,8 +2093,17 @@ System.out.println("chrome check");
 				responseBody = res.getBody().asString();
 			}
 		} else {
-			res = given().when().get();
+			res = given().relaxedHTTPSValidation().when().get();
 			responseBody = res.getBody().asString();
+			
+			
+			System.out.println("-------------------------------start-------------------------------------------------");
+			
+			System.out.println(responseBody);
+			
+			
+			System.out.println("-------------------------------------end-------------------------------------------");
+
 		}
 		msg = "get request  "
 				+ BuildObjrep.objKeyValue.get(BuildObjrep.TestCaseHashmap
@@ -2164,6 +2202,9 @@ System.out.println("chrome check");
 	public static void JsonToJavaObject() {
 		try {
 			jsonobj = new JSONObject(responseBody);
+			
+			
+	
 			msg = "convert json object to java object";
 
 			ConsoleLogs.INFOPass(msg);
@@ -2178,6 +2219,39 @@ System.out.println("chrome check");
 	}
 
 	//
+	
+	public static void InsideGetJSONArray() throws JSONException {
+		String jsonAttribute = BuildObjrep.TestCaseHashmap.get("Data");
+
+		
+		
+		//System.out.println(	jsonobj.length());
+		
+		if(jsonAttribute.equalsIgnoreCase("last")){
+			
+		//	JSONObject jsonobjLast
+			
+			jsonobj= jsonarr.getJSONObject(jsonarr.length()-1);
+			
+		// new added
+			jsonArray = new JSONArray(responseBody);
+
+
+			String pageAttributevalue=jsonobj.getString("billingSystem");
+			
+			
+			System.out.println(pageAttributevalue);
+		}
+		else{
+			
+			jsonobj = new JSONObject(responseBody);
+		jsonarr = jsonobj.getJSONArray(jsonAttribute);
+		responseBody=jsonarr.toString();
+		}		
+		}
+	
+	
+	
 
 	public static void GetJSONArray() throws JSONException {
 		String strd = BuildObjrep.TestCaseHashmap.get("Data");
@@ -2185,6 +2259,8 @@ System.out.println("chrome check");
 
 		if (responseBody.startsWith("[")) {
 			jsonArray = new JSONArray(responseBody);
+			
+		System.out.println(	jsonArray.length());
 			// System.out.println(jsonArray);
 
 			// String capital = jsonArray.getJSONObject(0).getString("capital");
@@ -2196,11 +2272,65 @@ System.out.println("chrome check");
 
 		} else {
 
-			jsonobj = new JSONObject(responseBody);
+			
+
+			/*jsonobj = new JSONObject(responseBody);
+			
+			
+			System.out.println(	jsonobj.length());
+			jsonarr = jsonobj.getJSONArray(jsonAttribute[0]);
+			
+			System.out.println(jsonarr.length());
+
+			JSONObject jsonobj22 = jsonarr.getJSONObject(jsonarr.length()-1);
+
+			System.out.println(jsonobj22.length());
+			
+			String pageAttributevalue=jsonobj22.getString("billingSystem");
+			
+			
+System.out.println(pageAttributevalue);
+						
+			
+			
+*/			
+			
+			
+			
+
 			msg = "convert json object to java object";
 			System.out.println(msg);
+			
+			
+			
+			
+			
+			
+			if (jsonAttribute.equals("first")) {
+				jsonarr = jsonobj.getJSONArray(jsonAttribute[0]);
 
-			if (jsonAttribute.length > 1) {
+				for (int i = 0; i < jsonarr.length(); i++) {
+					// System.out.println(jsonarr.length());
+					JSONObject jsonobj2 = jsonarr.getJSONObject(i);
+					String str = jsonobj2.getString(jsonAttribute[1]);
+					// System.out.println("formatted_address" + str);
+					String strint = str.toString();
+					listValues.add(strint.toString());
+				}
+			}
+			else	if (jsonAttribute.equals("last")) {
+				jsonarr = jsonobj.getJSONArray(jsonAttribute[0]);
+
+				for (int i = 0; i < jsonarr.length(); i++) {
+					// System.out.println(jsonarr.length());
+					JSONObject jsonobj2 = jsonarr.getJSONObject(i);
+					String str = jsonobj2.getString(jsonAttribute[1]);
+					// System.out.println("formatted_address" + str);
+					String strint = str.toString();
+					listValues.add(strint.toString());
+				}
+			}
+			else	if (jsonAttribute.length > 1) {
 				jsonarr = jsonobj.getJSONArray(jsonAttribute[0]);
 
 				for (int i = 0; i < jsonarr.length(); i++) {
@@ -2268,14 +2398,30 @@ System.out.println("chrome check");
 		flag = false;
 
 		if (responseBody.startsWith("[")) {
+			
+			
+			try{
+			String pageAttributevalue=jsonobj.getString(attribute);
+			flag = true;
+			msg = "Attribute  " + attribute + "   found in the list";
+			//ConsoleLogs.INFOPass(msg);
+			//ExtentHTML.pass(msg);
+			}catch(Exception e){
+				flag = false;
 
-			if (jsonArray.getJSONObject(0).getString(attribute) != null) {
+			}
+			
+
+			
+			
+			//old code
+		/*	if (jsonArray.getJSONObject(0).getString(attribute) != null) {
 				flag = true;
 				msg = "Attribute  " + attribute + "   found in the list";
 				ConsoleLogs.INFOPass(msg);
 				ExtentHTML.pass(msg);
 				flag = true;
-			}
+			}*/
 
 		} else {
 
@@ -2303,28 +2449,65 @@ System.out.println("chrome check");
 		}
 		if (flag == false) {
 
-			msg = "value " + attribute + "  not  found in the list";
+			msg = "value " + attribute + "  not  found in the api";
 
 			ConsoleLogs.INFOFail(msg);
 			ExtentHTML.fail(msg);
 
 		}
 
+		if (flag == true) {
+
+			
+
+			
+			msg = "Attribute  " + attribute + "   found in the api";
+			ConsoleLogs.INFOPass(msg);
+			ExtentHTML.pass(msg);
+			flag = true;
+			
+			
+		}
+		
+		
+		
 	}
 
 	public static void VerifyValue() throws InterruptedException, JSONException {
-		attributeValue = BuildObjrep.TestCaseHashmap.get("Data");
-		attributeValue = attributeValue.trim();
+		
+		
+		/*static String attributeValueApi;
+		static String attributeValueScript;*/
+		
+		attributeValueScript = BuildObjrep.TestCaseHashmap.get("Data");
+		attributeValueScript = attributeValueScript.trim();
 		flag = false;
 		// System.out.println("list valus are");
 
 		if (responseBody.startsWith("[")) {
-
-			String pageAttributevalue = jsonArray.getJSONObject(0).getString(
-					attribute);
-			if (attributeValue.equalsIgnoreCase(pageAttributevalue)) {
+			
+			
+			
+			try{
+				attributeValueApi=jsonobj.getString(attribute);
 				flag = true;
-				msg = "value " + attributeValue + "   found in the list against attribute "+attribute;
+				msg =  "value " + attributeValueApi + "   found in the api against attribute "+attribute;
+				//ConsoleLogs.INFOPass(msg);
+				//ExtentHTML.pass(msg);
+				}catch(Exception e){
+					flag = false;
+
+				}
+			
+			
+			
+			//old code
+/*
+			String pageAttributevalue = jsonArray.getJSONObject(0).getString(
+					attribute);*/
+			if (attributeValueScript.equalsIgnoreCase(attributeValueApi)) {
+				flag = true;
+				msg = "value " + attributeValueApi + "   found in API against attribute "+attribute;
 
 				ConsoleLogs.INFOPass(msg);
 				ExtentHTML.pass(msg);
@@ -2342,8 +2525,8 @@ System.out.println("chrome check");
 			for (int i = 0; i < listValues.size(); i++) {
 
 				// System.out.println("value " + i + " " + listValues.get(i));
-				if (listValues.get(i).equalsIgnoreCase(attributeValue)) {
-					msg = "value " + attributeValue + "   found in the list";
+				if (listValues.get(i).equalsIgnoreCase(attributeValueApi)) {
+					msg = "value " + attributeValueApi + "   found in the list";
 
 					ConsoleLogs.INFOPass(msg);
 					ExtentHTML.pass(msg);
@@ -2353,7 +2536,7 @@ System.out.println("chrome check");
 		}
 		if (flag == false) {
 
-			msg = "value " + attributeValue + "  not found in the list against attribute "+attribute;
+			msg = "value " + attributeValueApi + "  not found in the list against attribute "+attribute;
 
 			ConsoleLogs.INFOFail(msg);
 			ExtentHTML.fail(msg);

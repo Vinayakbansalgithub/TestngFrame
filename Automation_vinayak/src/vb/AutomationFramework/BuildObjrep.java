@@ -170,7 +170,7 @@ public class BuildObjrep {
 
 	}
 
-	// ///////////////////////////testscase///////////////////////////////////////
+	// ///////////////////////////  testcase  ///////////////////////////////////////
 
 	public static void runTestCase(WebDriver driver) throws IOException,
 			ClassNotFoundException, NoSuchMethodException, SecurityException,
@@ -335,7 +335,7 @@ public class BuildObjrep {
 			}
 			// Write the workbook in file system
 			FileOutputStream out = new FileOutputStream(new File(
-					"D://vinayak//scripts-Appium//Writesheet.xlsx"));
+					"C:/Users/vinayak.bansal/git/TestngFrame/Automation_vinayak/scripts/Writesheet.xlsx"));
 			workbook.write(out);
 			out.close();
 			System.out.println("Writesheet.xlsx written successfully");

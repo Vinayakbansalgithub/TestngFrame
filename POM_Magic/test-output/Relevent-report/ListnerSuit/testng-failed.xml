@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ListnerSuit]">
+  <listeners>
+    <listener class-name="TestNg.ListnerAdapter"/>
+  </listeners>
+  <test name="ListnerTest(failed)">
+    <classes>
+      <class name="TestNg.ListnerMain">
+        <methods>
+          <include name="dividedByZero"/>
+          <include name="methodSkip"/>
+        </methods>
+      </class> <!-- TestNg.ListnerMain -->
+    </classes>
+  </test> <!-- ListnerTest(failed) -->
+</suite> <!-- Failed suite [ListnerSuit] -->

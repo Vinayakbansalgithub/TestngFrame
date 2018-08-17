@@ -299,3 +299,239 @@
 2017-06-29 17:05:05,728 INFO  [ConsoleLogs] Atribute value   results formatted_address are digged 
 2017-06-29 17:05:05,729 INFO  [ConsoleLogs] value Grand Hyatt Mumbai, Bandra Kurla Complex,, Off Western Express Highway, Santacruz East, Mumbai, Maharashtra 400055, India   found in the list 
 2017-06-29 17:05:05,729 INFO  [ConsoleLogs] closing test case  
+2018-06-28 16:35:58,354 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2018-06-28 16:36:06,326 INFO  [ConsoleLogs] get request   
+2018-06-28 16:36:06,328 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-28 16:36:06,333 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2018-06-28 16:36:06,337 INFO  [ConsoleLogs] converted to array 
+2018-06-28 16:36:06,338 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2018-06-28 16:36:06,339 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2018-06-28 16:36:06,340 INFO  [ConsoleLogs] closing test case  
+2018-06-28 16:52:05,331 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2018-06-28 16:58:51,665 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2018-06-28 16:59:20,087 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2018-06-28 16:59:22,506 INFO  [ConsoleLogs] get request  null 
+2018-06-28 16:59:22,508 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-28 16:59:22,513 INFO  [ConsoleLogs] A JSONObject text must begin with '{' at character 1 
+2018-06-28 16:59:22,517 INFO  [ConsoleLogs] converted to array 
+2018-06-28 16:59:22,520 INFO  [ConsoleLogs] Attribute  alpha2Code   found in the list 
+2018-06-28 16:59:22,523 INFO  [ConsoleLogs] value No   found in the list against attribute alpha2Code 
+2018-06-28 16:59:22,526 INFO  [ConsoleLogs] closing test case  
+2018-06-28 16:59:54,336 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products?limit=30&contractingCustomerId=673542&offset=0&productType=Offer  
+2018-06-28 17:02:36,293 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2018-06-28 17:03:28,746 INFO  [ConsoleLogs] base uri to be open is http://restcountries.eu/rest/v1/name/norway 
+2018-06-28 17:05:04,523 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products?limit=30&contractingCustomerId=673542&offset=0&productType=Offer  
+2018-06-28 17:05:32,192 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products?limit=30&contractingCustomerId=673542&offset=0&productType=Offer  
+2018-06-28 17:12:35,773 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products 
+2018-06-28 17:17:29,275 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products 
+2018-06-28 17:17:50,280 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products 
+2018-06-28 17:19:21,999 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products 
+2018-06-28 17:24:40,895 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products 
+2018-06-28 17:24:49,693 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products 
+2018-06-28 17:34:48,811 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products 
+2018-06-28 17:35:43,059 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products 
+2018-06-28 17:37:58,045 INFO  [ConsoleLogs] base uri to be open is https://cibase.sandbox.equant.com/cib/services/productInventory/v2/products?limit=30&contractingCustomerId=673542&offset=0&productType=Offer  
+2018-06-28 17:39:25,265 INFO  [ConsoleLogs] base uri to be open is https://cibase.qa.equant.com/cib/services/productInventory/v2/products//12-4806  
+2018-06-28 17:43:05,828 INFO  [ConsoleLogs] base uri to be open is https://cibase.qa.equant.com/cib/services/productInventory/v2/products//12-4806  
+2018-06-28 17:57:15,222 INFO  [ConsoleLogs] base uri to be open is https://cibase.qa.equant.com/cib/services/productInventory/v2/products//12-4806  
+2018-06-28 17:59:04,666 INFO  [ConsoleLogs] base uri to be open is https://cibase.qa.equant.com/cib/services/productInventory/v2/products 
+2018-06-28 18:20:52,850 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-28 18:22:43,039 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-28 18:24:27,268 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-28 18:32:48,503 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 10:44:04,267 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 10:44:27,149 INFO  [ConsoleLogs] get request  null 
+2018-06-29 10:44:27,159 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 10:44:49,274 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 10:48:42,484 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 10:48:58,707 INFO  [ConsoleLogs] get request  null 
+2018-06-29 10:48:58,707 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 10:49:22,146 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 10:49:43,055 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 10:49:46,526 INFO  [ConsoleLogs] get request  null 
+2018-06-29 10:49:46,526 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 10:49:46,546 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 10:51:18,911 INFO  [ConsoleLogs] Atribute value   product are digged 
+2018-06-29 10:55:28,176 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 10:55:31,974 INFO  [ConsoleLogs] get request  null 
+2018-06-29 10:55:31,980 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 10:55:32,026 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 10:56:08,302 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 10:56:11,955 INFO  [ConsoleLogs] get request  null 
+2018-06-29 10:56:11,956 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 10:56:11,962 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 10:56:53,630 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 10:56:56,944 INFO  [ConsoleLogs] get request  null 
+2018-06-29 10:56:56,952 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 10:56:57,007 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 11:00:20,814 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 11:00:24,461 INFO  [ConsoleLogs] get request  null 
+2018-06-29 11:00:24,461 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 11:00:24,501 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 11:08:34,936 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 11:10:04,571 INFO  [ConsoleLogs] get request  null 
+2018-06-29 11:10:04,581 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 11:10:04,616 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:01:56,137 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:02:11,579 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:02:11,580 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:02:11,632 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:03:53,797 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:03:57,074 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:03:57,074 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:03:57,094 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:05:11,149 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:05:14,757 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:05:14,772 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:05:14,803 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:06:21,717 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:06:26,327 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:06:26,329 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:06:26,359 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:08:00,732 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:08:06,151 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:08:06,153 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:08:06,193 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:09:57,901 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:10:08,176 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:10:11,978 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:10:11,978 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:10:11,988 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:11:29,603 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:11:34,444 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:11:34,447 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:11:34,472 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:13:31,284 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:13:35,015 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:13:35,017 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:13:35,040 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:14:39,981 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:14:45,154 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:14:45,155 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:14:45,200 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:15:17,589 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:15:21,535 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:15:21,543 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:15:21,565 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:17:34,899 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:17:38,412 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:17:38,417 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:17:38,449 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:27:54,755 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:27:59,129 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:27:59,135 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:27:59,161 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:30:38,665 INFO  [ConsoleLogs] Atribute value   product are digged 
+2018-06-29 15:42:08,803 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:42:12,534 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:42:12,536 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:42:12,553 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:42:34,908 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:42:38,767 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:42:38,770 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:42:38,798 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:43:00,107 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:43:03,195 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:43:03,202 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:43:03,230 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:44:33,837 INFO  [ConsoleLogs] Atribute value   product are digged 
+2018-06-29 15:49:56,492 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:50:01,973 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:50:01,976 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:50:02,009 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:53:01,372 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:53:05,890 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:53:05,892 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:53:05,914 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 15:57:44,507 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 15:57:48,882 INFO  [ConsoleLogs] get request  null 
+2018-06-29 15:57:48,890 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 15:57:48,920 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 17:53:24,009 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 17:53:28,529 INFO  [ConsoleLogs] get request  null 
+2018-06-29 17:53:28,531 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 17:53:28,580 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 17:55:36,196 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 17:55:39,986 INFO  [ConsoleLogs] get request  null 
+2018-06-29 17:55:39,989 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 17:55:39,999 INFO  [ConsoleLogs] convert json object to java object 
+2018-06-29 17:57:18,333 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-06-29 17:57:28,345 INFO  [ConsoleLogs] get request  null 
+2018-06-29 17:57:28,347 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-06-29 17:57:28,376 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 11:40:39,840 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 11:40:46,354 INFO  [ConsoleLogs] get request  null 
+2018-07-04 11:40:46,358 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 11:40:46,385 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 11:46:04,594 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 11:46:08,939 INFO  [ConsoleLogs] get request  null 
+2018-07-04 11:46:08,939 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 11:46:08,949 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 11:49:47,808 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 11:49:51,861 INFO  [ConsoleLogs] get request  null 
+2018-07-04 11:49:51,861 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 11:49:51,885 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 12:00:41,096 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 12:00:44,946 INFO  [ConsoleLogs] get request  null 
+2018-07-04 12:00:44,947 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 12:00:44,969 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 12:03:57,842 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 12:04:01,681 INFO  [ConsoleLogs] get request  null 
+2018-07-04 12:04:01,683 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 12:04:01,733 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 12:04:38,909 INFO  [ConsoleLogs] Attribute  billingSystem   found in the api 
+2018-07-04 12:07:49,979 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 12:07:53,504 INFO  [ConsoleLogs] get request  null 
+2018-07-04 12:07:53,504 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 12:07:53,534 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 12:08:21,662 INFO  [ConsoleLogs] Attribute  billingSystem   found in the api 
+2018-07-04 12:09:31,657 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 12:09:35,263 INFO  [ConsoleLogs] get request  null 
+2018-07-04 12:09:35,273 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 12:09:35,303 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 12:10:45,776 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 12:10:51,400 INFO  [ConsoleLogs] get request  null 
+2018-07-04 12:10:51,400 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 12:10:51,408 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 12:10:51,451 INFO  [ConsoleLogs] Attribute  status   found in the api 
+2018-07-04 12:10:51,451 INFO  [ConsoleLogs] value Active   found in the list against attribute status 
+2018-07-04 12:10:51,451 INFO  [ConsoleLogs] Attribute  billingSystem   found in the api 
+2018-07-04 12:11:36,046 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 12:11:39,872 INFO  [ConsoleLogs] get request  null 
+2018-07-04 12:11:39,872 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 12:11:39,902 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 12:11:50,473 INFO  [ConsoleLogs] Attribute  status   found in the api 
+2018-07-04 12:14:37,538 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 12:14:53,189 INFO  [ConsoleLogs] get request  null 
+2018-07-04 12:14:53,189 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 12:14:53,219 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 12:15:06,189 INFO  [ConsoleLogs] Attribute  status   found in the api 
+2018-07-04 12:15:48,995 INFO  [ConsoleLogs] value Active   found in the list against attribute status 
+2018-07-04 12:16:04,813 INFO  [ConsoleLogs] Attribute  billingSystem   found in the api 
+2018-07-04 12:17:40,094 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 12:17:45,270 INFO  [ConsoleLogs] get request  null 
+2018-07-04 12:17:45,270 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 12:17:45,301 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-04 12:17:45,325 INFO  [ConsoleLogs] Attribute  status   found in the api 
+2018-07-04 12:17:59,265 INFO  [ConsoleLogs] value Active   found in API against attribute status 
+2018-07-04 12:18:04,293 INFO  [ConsoleLogs] Attribute  billingSystem   found in the api 
+2018-07-04 12:18:26,425 INFO  [ConsoleLogs] value OBS Standard   found in API against attribute billingSystem 
+2018-07-04 12:18:31,216 INFO  [ConsoleLogs] closing test case  
+2018-07-04 12:21:56,683 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-04 12:22:00,817 INFO  [ConsoleLogs] get request  null 
+2018-07-04 12:22:00,817 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-04 12:22:00,867 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-09 14:46:17,448 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-09 14:46:24,056 INFO  [ConsoleLogs] get request  null 
+2018-07-09 14:46:24,066 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-09 14:46:24,097 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-09 14:46:24,117 INFO  [ConsoleLogs] Attribute  status   found in the api 
+2018-07-09 14:46:24,117 INFO  [ConsoleLogs] value Active   found in API against attribute status 
+2018-07-09 14:46:24,117 INFO  [ConsoleLogs] Attribute  billingSystem   found in the api 
+2018-07-09 14:46:24,117 INFO  [ConsoleLogs] value OBS Standard   found in API against attribute billingSystem 
+2018-07-09 14:46:24,127 INFO  [ConsoleLogs] closing test case  
+2018-07-09 14:49:03,154 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-09 14:49:06,770 INFO  [ConsoleLogs] get request  null 
+2018-07-09 14:49:06,779 INFO  [ConsoleLogs] verify :  status code form API is 200  is verified against 200 and are same  
+2018-07-09 14:49:06,810 INFO  [ConsoleLogs] convert json object to java object 
+2018-07-09 14:49:44,477 INFO  [ConsoleLogs] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 

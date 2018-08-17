@@ -10,22 +10,15 @@ public class ExtentHTML {
 
 	public static void starttest() {
 		testrep = extent.startTest(BuildObjrep.TestSuitHashmap
-				.get("Testcaseid")+" is started in "+BuildObjrep.TestSuitHashmap.get("Browser"));
+				.get("Testcaseid")
+				+ " is started in "
+				+ BuildObjrep.TestSuitHashmap.get("Browser"));
 	}
 
 	public static void pass(String msg) {
 
-		// extent.flush();
-		// extent.close();
-
 		testrep.log(LogStatus.PASS,
 				BuildObjrep.TestCaseHashmap.get("TestStepID"), msg.toString());
-
-	}
-
-	public static void Endtest() {
-		extent.endTest(testrep);
-		extent.flush();
 	}
 
 	public static void fail(String msg) {
@@ -34,11 +27,22 @@ public class ExtentHTML {
 				BuildObjrep.TestCaseHashmap.get("TestStepID"), msg.toString());
 
 	}
+
 	public static void Skip(String msg) {
 		// TODO Auto-generated method stub
 		testrep.log(LogStatus.SKIP,
 				BuildObjrep.TestCaseHashmap.get("TestStepID"), msg.toString());
 
+	}
+
+	public static void fatal(String msg) {
+		testrep.log(LogStatus.FATAL,
+				BuildObjrep.TestCaseHashmap.get("TestStepID"), msg.toString());
+	}
+
+	public static void Endtest() {
+		extent.endTest(testrep);
+		extent.flush();
 	}
 
 }

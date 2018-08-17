@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [my suite]">
+  <test name="mytest(failed)">
+    <classes>
+      <class name="TestNg.TestNGExampleTests">
+        <methods>
+          <include name="verifyLoginPageText"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNg.TestNGExampleTests -->
+    </classes>
+  </test> <!-- mytest(failed) -->
+</suite> <!-- Failed suite [my suite] -->

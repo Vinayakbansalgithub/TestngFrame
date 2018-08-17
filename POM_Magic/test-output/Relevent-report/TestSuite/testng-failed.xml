@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [TestSuite]">
+  <parameter name="author" value="Abc"/>
+  <parameter name="searchKey" value="UK"/>
+  <test name="testGuruji(failed)">
+    <parameter name="searchKey" value="UK"/>
+    <classes>
+      <class name="SelFrDemo.TestNGClass">
+        <methods>
+          <include name="TestNGClass"/>
+        </methods>
+      </class> <!-- SelFrDemo.TestNGClass -->
+    </classes>
+  </test> <!-- testGuruji(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
