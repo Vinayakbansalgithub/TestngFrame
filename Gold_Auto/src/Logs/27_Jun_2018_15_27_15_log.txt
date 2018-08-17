@@ -1,0 +1,10 @@
+2018-06-27 15:24:02,176 INFO  [Log] #### Opening Order Stage Functionalities of GOLD_RTC_14_3 #### 
+2018-06-27 15:24:03,170 ERROR [Log] Error#: Browser value is not set in the test case sheet SOAP 
+2018-06-27 15:24:08,196 INFO  [Log] **************************************************************************************** 
+2018-06-27 15:24:08,196 INFO  [Log] **************************************************************************************** 
+2018-06-27 15:24:08,196 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 GOLD_RTC_14_3Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 15:24:08,196 INFO  [Log] **************************************************************************************** 
+2018-06-27 15:24:08,196 INFO  [Log] **************************************************************************************** 
+2018-06-27 15:24:08,196 INFO  [Log] #### Executing Test case: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation 
+2018-06-27 15:25:23,329 INFO  [Log] 1033092; Value has been stored in index: 0 
+2018-06-27 15:25:25,552 INFO  [Log] Step13; Wait for some time; Action: Manual Wait for 5000 Milli seconds 

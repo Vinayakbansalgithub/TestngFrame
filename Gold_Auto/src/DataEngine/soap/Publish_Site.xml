@@ -1,0 +1,93 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:root="http://www.orange.com/GOLD/Interfaces/ManageLocation/ResourceInventory/v1/root">
+   <soapenv:Header/>
+    <soapenv:Body>
+      <root:PublishSiteRequest>
+         <Site>
+            <siteID>78783482331</siteID>
+            <!--Optional:-->
+            <siteName>Winnipeg_0135121</siteName>
+            <!--Optional:-->
+            <local_customerSiteName>CustomerSiteName1</local_customerSiteName>
+            <!--Optional:-->
+            <local_localCompanyName>Local Company Name 1</local_localCompanyName>
+            <SiteSpecCharacteristic>
+               <!--Optional:-->
+               <local_operatingHours>12</local_operatingHours>
+               <!--Zero or more repetitions:-->
+               <Local_PhoneNumber>
+                  <number>123456789</number>
+                  <numberType>Phone</numberType>
+               </Local_PhoneNumber>
+               <Local_PhoneNumber>
+                  <number>123456754</number>
+                  <numberType>Phone</numberType>
+               </Local_PhoneNumber>
+			<Local_PhoneNumber>
+                  <number>123456745</number>
+                  <numberType>Fax1</numberType>
+               </Local_PhoneNumber>
+			<Local_PhoneNumber>
+                  <number>123456732</number>
+                  <numberType>Fax</numberType>
+               </Local_PhoneNumber>
+			<Local_PhoneNumber>
+                  <number>123456723</number>
+                  <numberType>Phone1</numberType>
+               </Local_PhoneNumber>
+            </SiteSpecCharacteristic>
+            <!--Zero or more repetitions:-->
+            <Local_Customer>
+               <local_ICO1Code>673542</local_ICO1Code>
+               <!--Optional:-->
+               <local_customerName>Local Customer Name</local_customerName>
+               <CustomerStatus>
+                  <statusCode>0</statusCode>
+               </CustomerStatus>
+            </Local_Customer>
+            <!--Zero or more repetitions:-->
+           
+            <LocalPlace>
+               <Address>
+                  <addressID>Kush1</addressID>
+                  <!--Optional:-->
+                  <postalCode>560032</postalCode>
+                  <!--Optional:-->
+                  <local_addressComment>Local Address Comment2</local_addressComment>
+                  <!--Optional:-->
+                  <Street>
+                     <streetName>Street Name2</streetName>
+                  </Street>
+                  <City>
+                     <cityName>City Name2</cityName>
+                  </City>
+                  <!--Optional:-->
+                  <State>
+					<stateName>California</stateName>
+					<stateCode>CA</stateCode>
+					<local_stateType>State</local_stateType>
+			   </State>
+                  <Country>
+					<countryName>USA</countryName>
+					<countryCode>US</countryCode>
+			   </Country>
+                  <!--Optional:-->
+                  <Local_Status>
+                     <addressStatus>Active</addressStatus>
+                  </Local_Status>
+                  <!--Optional:-->
+                  <SubAddress>
+                     <!--Optional:-->
+                     <apartmentNumber>room2</apartmentNumber>
+                     <!--Optional:-->
+                     <floorNumber>floor2</floorNumber>
+                     <!--Optional:-->
+                     <buildingName>Building name2</buildingName>
+                     <!--Optional:-->
+                     <residenceName>Residance name2</residenceName>
+                  </SubAddress>
+               </Address>
+            </LocalPlace>
+         </Site>
+      </root:PublishSiteRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

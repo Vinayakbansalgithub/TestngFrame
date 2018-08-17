@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:inp="urn:30I.orange.com:UpdateERP/Input" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:type="urn:30I.orange.com:UpdateERP/type/">
+   <soapenv:Header/>
+   <soapenv:Body>
+       <typens:UpdateERPRequest xmlns:ins="urn:30I.orange.com:UpdateERP/Input" xmlns:typens="urn:30I.orange.com:UpdateERP/type/">
+  <ins:ERP>
+    <ins:ERPInformations>
+      <ins:Category>INFO</ins:Category>
+      <ins:Label>Revised Target Delivery Date</ins:Label>
+      <ins:Status>
+        <ins:Code>OK</ins:Code>
+      </ins:Status>
+      <ins:Dates>
+        <ins:SentDate>2009-09-10T12:49:09.621+02:00</ins:SentDate>
+      </ins:Dates>
+      <ins:ParametersList>
+        <ins:Section>ACTIVITY</ins:Section>
+        <ins:SectionComplement>PROPERTIES</ins:SectionComplement>
+        <ins:Parameters>
+          <ins:Code>RTDDAT</ins:Code>
+          <ins:Value>2009-10-29T12:09:00.000+0000</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>CHGRSNLBL</ins:Code>
+          <ins:Value>this is test RTDD</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>CHGRSNCOD</ins:Code>
+          <ins:Value>RTD-ETDD</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>CHILDUSID1</ins:Code>
+          <ins:Value>1202736D1</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>CHILDORD1</ins:Code>
+          <ins:Value/>
+        </ins:Parameters>
+      </ins:ParametersList>
+    </ins:ERPInformations>
+    <ins:Service>
+      <ins:ServiceIDIssued>
+        <ins:UserID>GO02LWYNB2</ins:UserID>
+        <ins:InternalID>test1</ins:InternalID>
+      </ins:ServiceIDIssued>
+      <ins:ServiceIDDestination>
+        <ins:UserID>GO02LWYNB2</ins:UserID>
+        <ins:InternalID>983270</ins:InternalID>
+      </ins:ServiceIDDestination>
+    </ins:Service>
+    <ins:RefDomainAdminSource>
+      <ins:Domain>PROVISIONING</ins:Domain>
+      <ins:Tool>SESAM</ins:Tool>
+      <ins:OwnerOrganization>EQUANT</ins:OwnerOrganization>
+    </ins:RefDomainAdminSource>
+    <ins:RefDomainAdminTarget>
+      <ins:Domain>ORDERING</ins:Domain>
+      <ins:DomainAdd>CRM</ins:DomainAdd>
+      <ins:OwnerOrganization>EQUANT</ins:OwnerOrganization>
+    </ins:RefDomainAdminTarget>
+  </ins:ERP>
+</typens:UpdateERPRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

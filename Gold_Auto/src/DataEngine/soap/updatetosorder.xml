@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:inp="urn:30I.orange.com:UpdateTosOrder/Input" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:type="urn:30I.orange.com:UpdateTosOrder/type/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <type:TosUpdateRequest>
+         <inp:GOLDOrderNumber>1015038</inp:GOLDOrderNumber>
+         <inp:provOrderRef>test1</inp:provOrderRef>
+         <inp:tosCreationDate>2015-07-31T07:47:35.197+02:00</inp:tosCreationDate>
+         <inp:GOLDUSID>GO0714NFB1</inp:GOLDUSID>
+         <inp:TOSSystem>SAX</inp:TOSSystem>
+      </type:TosUpdateRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

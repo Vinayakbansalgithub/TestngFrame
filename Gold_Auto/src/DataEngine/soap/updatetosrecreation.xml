@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Header xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"/><SOAP-ENV:Body>
+<typens:UpdateERPRequest xmlns:ins="urn:30I.orange.com:UpdateERP/Input" xmlns:typens="urn:30I.orange.com:UpdateERP/type/">
+  <ins:ERP>
+    <ins:ERPInformations>
+      <ins:Category>INFO</ins:Category>
+      <ins:Label>TOS Order Recreation After Cancellation</ins:Label>
+      <ins:Status>
+        <ins:Code>OK</ins:Code>
+      </ins:Status>
+      <ins:Dates>
+        <ins:SentDate>2016-04-15T07:52:13.376+02:00</ins:SentDate>
+      </ins:Dates>
+      <ins:ParametersList>
+        <ins:Section>ACTIVITY</ins:Section>
+        <ins:SectionComplement>PROPERTIES</ins:SectionComplement>
+        <ins:Parameters>
+          <ins:Code>TOSORDCREDAT</ins:Code>
+          <ins:Value>2016-04-15T04:50:03.000+0000</ins:Value>
+        </ins:Parameters>
+         <ins:Parameters>
+          <ins:Code>OldTOSID</ins:Code>
+          <ins:Value>TSTLAN12345</ins:Value>
+        </ins:Parameters>
+          <ins:Parameters>
+          <ins:Code>OldRouterUSID</ins:Code>
+          <ins:Value>GO06FAWM95</ins:Value>
+        </ins:Parameters>
+         <ins:Parameters>
+          <ins:Code>NewRouterName</ins:Code>
+          <ins:Value>CPE Name</ins:Value>
+        </ins:Parameters>   
+      </ins:ParametersList>
+    </ins:ERPInformations>
+    <ins:Service>
+      <ins:ServiceIDIssued>
+        <ins:UserID>TSTLAN12345</ins:UserID>
+        <ins:InternalID>X00011</ins:InternalID>
+      </ins:ServiceIDIssued>
+      <ins:ServiceIDDestination>
+        <ins:UserID>TSTLAN12345</ins:UserID>
+        <ins:InternalID>983967</ins:InternalID>
+      </ins:ServiceIDDestination>
+    </ins:Service>
+    <ins:RefDomainAdminSource>
+      <ins:Domain>ORDERING</ins:Domain>
+      <ins:Tool>SAX</ins:Tool>
+      <ins:OwnerOrganization>EQUANT</ins:OwnerOrganization>
+    </ins:RefDomainAdminSource>
+    <ins:RefDomainAdminTarget>
+      <ins:Domain>ORDERING</ins:Domain>
+      <ins:DomainAdd>CRM</ins:DomainAdd>
+      <ins:OwnerOrganization>EQUANT</ins:OwnerOrganization>
+    </ins:RefDomainAdminTarget>
+  </ins:ERP>
+</typens:UpdateERPRequest>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

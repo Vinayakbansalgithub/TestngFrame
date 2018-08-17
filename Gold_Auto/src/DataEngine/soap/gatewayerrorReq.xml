@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:inp="urn:30I.orange.com:UpdateTosRejection/Input" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:type="urn:30I.orange.com:UpdateTosRejection/type/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <type:TosRejectionRequest>
+         <inp:GOLDUSID>GO02ZMQVF6</inp:GOLDUSID>
+         <inp:GOLDOrderNumber>982931</inp:GOLDOrderNumber>
+         <inp:TosOrderRef/>
+         <inp:RejectionCode>106</inp:RejectionCode>
+         <inp:RejectionComment>ZZ00009</inp:RejectionComment>
+         <inp:RejectionDate>2009-09-18T08:32:23.807+02:00</inp:RejectionDate>
+         <inp:ActorCode>3</inp:ActorCode>
+      </type:TosRejectionRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

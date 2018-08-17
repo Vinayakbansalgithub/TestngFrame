@@ -1,0 +1,20 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns2:FindAndGetCustomerProject xmlns:ns2="http://www.orange.com/GOLD/Interfaces/ManageProject/LeadAndOpportunityManagement/v1.0/root">
+      <CustomerProjectFindCriteria>
+        <projectID/>
+        <ProjectPartyRole>
+          <partyRoleType>Customer</partyRoleType>
+          <Party>
+            <partyID>673542</partyID>
+            <partyType>organisation</partyType>
+          </Party>
+        </ProjectPartyRole>
+      </CustomerProjectFindCriteria>
+      <FilterCriteriaCustomerProject>
+        <maxWishedResults>10</maxWishedResults>
+        <restartRange>0</restartRange>
+      </FilterCriteriaCustomerProject>
+    </ns2:FindAndGetCustomerProject>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Header/><SOAP-ENV:Body>
+<root:CreateCustomerOrder xmlns:root="http://www.orange.com/GOLD/Interfaces/ManageCustomerOrder/CustomerOrderCapture/v1/root">
+<CustomerOrder>
+  <externalID>95347/TESTMEP119746</externalID>
+  <local_referentialName>CCA On line Portal</local_referentialName>
+  <local_firstExternalID>test1234</local_firstExternalID>              
+  <local_secondExternalID>Test4567</local_secondExternalID>
+  <local_singleSignOff>Yes</local_singleSignOff>
+  <local_billingProcess>Yes</local_billingProcess>
+  <customerOrderType>modification</customerOrderType>
+<local_changeType>Number Deactivation</local_changeType>
+  <description>Ceci est un commentaire</description>
+  <local_contractlD>85011930</local_contractlD>
+  <local_legalApproval>Done</local_legalApproval>
+  <local_previousCustomerOrderID>10-1011096</local_previousCustomerOrderID>
+  <CustomerOrderStatus>
+    <statusCode>Pending</statusCode>
+    <startDate>2014-07-22T10:22:16.795+02:00</startDate>
+  </CustomerOrderStatus>
+ 
+  <CustomerOrderStatus>
+    <statusCode>Pending</statusCode>
+    <startDate>2015-03-24T11:52:23</startDate>
+  </CustomerOrderStatus>
+  <Quotation>
+    <quotationID>1234567890987654</quotationID>
+  </Quotation>
+  <Local_SaleContract>
+    <saleCategory>Organic Growth</saleCategory>
+    <dateSalesNotified>2014-07-22Z</dateSalesNotified>
+  </Local_SaleContract>
+<Opportunity>
+  <opportunityID>5656</opportunityID>
+</Opportunity>
+  <Local_SaleContract>
+    <saleContactID>po_number</saleContactID>
+    <saleCategory>Bid</saleCategory>
+    <dateSalesNotified>2015-03-24</dateSalesNotified>
+  </Local_SaleContract>
+  <Creator>
+    <processID>CCA On line Portal</processID>
+    <Party>
+      <Local_MayUseContactMethod>
+        <Local_EmailAddress>
+          <eMailAddress>test@prime.com</eMailAddress>
+        </Local_EmailAddress>
+      </Local_MayUseContactMethod>
+      <Local_PersonName>
+        <firstName>webSource</firstName>
+        <lastName>prime</lastName>
+      </Local_PersonName>
+    </Party>
+  </Creator>
+  <Buyer>
+    <Party>
+      <Local_OrganisationName>
+        <tradingName>Test customer</tradingName>
+      </Local_OrganisationName>
+    </Party>
+  </Buyer>
+  <PartyRole>
+    <partyRoleType>End User</partyRoleType>
+    <Party>
+      <partyID>673542</partyID>
+      <partyType>organisation</partyType>
+      <Local_MayUseContactMethod>
+        <PhoneNumber>
+          <number>01222</number>
+          <numberType>type</numberType>
+        </PhoneNumber>
+        <EmailAddress>
+          <eMailAddress>contact@fm.com</eMailAddress>
+        </EmailAddress>
+      </Local_MayUseContactMethod>
+      <Local_PersonName>
+        <lastName>contact name</lastName>
+      </Local_PersonName>
+      <Local_OrganisationName>
+        <tradingName>Test customer</tradingName>
+      </Local_OrganisationName>
+    </Party>
+  </PartyRole>
+<PartyRole>
+    <partyRoleType>Order Signatory</partyRoleType>
+    <Party>
+      <partyID>673542</partyID>
+      <partyType>person</partyType>
+      <Local_MayUseContactMethod>
+        <PhoneNumber>
+          <number>123456</number>
+          <numberType>Fix</numberType>
+        </PhoneNumber>
+        <EmailAddress>
+          <eMailAddress>prime.test@test.com</eMailAddress>
+        </EmailAddress>
+      </Local_MayUseContactMethod>
+      <Local_PersonName>
+        <firstName>Prime</firstName>
+        <lastName>Test</lastName>
+      </Local_PersonName>
+    </Party>
+  </PartyRole>
+ <PartyRole>
+    <partyRoleType>Contracting Party</partyRoleType>
+    <Party>
+      <partyID>673542</partyID>
+      <partyType>person</partyType>
+      <Local_MayUseContactMethod>
+        <PhoneNumber>
+          <number>01</number>
+          <numberType>type</numberType>
+        </PhoneNumber>
+        <EmailAddress>
+          <eMailAddress>contact@fm.com</eMailAddress>
+        </EmailAddress>
+      </Local_MayUseContactMethod>
+      <Local_PersonName>
+        <lastName>name</lastName>
+      </Local_PersonName>
+      <Local_OrganisationName>
+        <tradingName>Test customer</tradingName>
+      </Local_OrganisationName>
+    </Party>
+  </PartyRole>
+  <PartyRole>
+    <partyRoleType>Order signatory</partyRoleType>
+    <Party>
+      <partyID>673542</partyID>
+      <partyType>person</partyType>
+      <Local_MayUseContactMethod>
+        <PhoneNumber>
+          <number>01</number>
+          <numberType>type</numberType>
+        </PhoneNumber>
+        <EmailAddress>
+          <eMailAddress>test@to.com</eMailAddress>
+        </EmailAddress>
+      </Local_MayUseContactMethod>
+      <Local_PersonName>
+        <lastName>name</lastName>
+      </Local_PersonName>
+      <Local_OrganisationName>
+        <tradingName>Test customer</tradingName>
+      </Local_OrganisationName>
+    </Party>
+  </PartyRole>
+  <Local_Note>
+                <type>General</type>
+                <customerVisible>TRUE</customerVisible>
+                <note>askjajsa</note>
+  </Local_Note>
+  <Currency>
+    <currencyCode>EUR</currencyCode>
+  </Currency>
+  <CustomerOrderItem>
+    <customerOrderItemID>1</customerOrderItemID>
+    <effectDateWished>2015-03-24T10:50:15</effectDateWished>
+    <local_RFSDate>2015-03-24T10:50:15</local_RFSDate>
+    <local_RFBDate>2015-03-25T10:50:15</local_RFBDate>
+    <local_customerSignatureDate>2015-03-24T10:50:15</local_customerSignatureDate>
+    <local_earlyDeliveryRequested>true</local_earlyDeliveryRequested>
+    <local_leadTimeBasis>Manual</local_leadTimeBasis>
+    <local_customerAcceptanceTesting>no</local_customerAcceptanceTesting>
+    <local_installationPreference>LBH</local_installationPreference>
+    <CommercialOperation>
+      <commercialOperationType>change</commercialOperationType>
+    </CommercialOperation>
+    <OfferSpecification>
+      <offerSpecificationCode>Contact Center Access</offerSpecificationCode>
+      <local_customerServiceSurvey>no</local_customerServiceSurvey>
+      <CommitmentSpecification>
+        <durationValue>13</durationValue>
+        <durationUnit>month</durationUnit>
+      </CommitmentSpecification>
+      <Local_offerParameter>
+        <parameterCode>Site Implementation - CCA</parameterCode>
+        <parameterValue>yes</parameterValue>
+      </Local_offerParameter>
+                <Local_offerParameter>
+        <parameterCode>1 - Contact Center Access Number</parameterCode>
+        <parameterValue>3xPSTNxFRANCE</parameterValue>
+      </Local_offerParameter>
+      <PricePlanSpecification>
+               <Local_TariffApproval>
+          <tariffApprovalProvided>false</tariffApprovalProvided>
+         <tariffApprovalCode/>
+          <tariffApprovalCode2/>
+          <exceptionReasonCode>2</exceptionReasonCode>
+        </Local_TariffApproval>
+        <TariffSpecification>
+          <tariffSpecificationCode>$$_CATREQUIRED</tariffSpecificationCode>
+          <tariffAction>Add</tariffAction>
+          <local_financialProductCode>J08</local_financialProductCode>
+          <local_CustomerLabel/>
+          <TariffValueSpec>
+            <tariffSpecificationType>Recurring tariff spec</tariffSpecificationType>
+            <amount>-65.0</amount>
+          </TariffValueSpec>
+          <TariffValueSpec>
+            <tariffSpecificationType>Non recurring tariff spec</tariffSpecificationType>
+            <amount>-45.0</amount>
+          </TariffValueSpec>
+        </TariffSpecification>
+        <TariffSpecification>
+          <tariffSpecificationCode>$$_INSTALLPREFERENCES</tariffSpecificationCode>
+          <tariffAction>Add</tariffAction>
+          <local_financialProductCode>H06</local_financialProductCode>
+          <local_CustomerLabel/>
+          <TariffValueSpec>
+            <tariffSpecificationType>Recurring tariff spec</tariffSpecificationType>
+            <amount>-82.0</amount>
+          </TariffValueSpec>
+          <TariffValueSpec>
+            <tariffSpecificationType>Non recurring tariff spec</tariffSpecificationType>
+            <amount>-90.0</amount>
+          </TariffValueSpec>
+        </TariffSpecification>
+        <TariffSpecification>
+          <tariffSpecificationCode>$$_CUSTSITESURVEY</tariffSpecificationCode>
+          <tariffAction>Add</tariffAction>
+          <local_financialProductCode>J26</local_financialProductCode>
+          <local_CustomerLabel/>
+          <TariffValueSpec>
+            <tariffSpecificationType>Recurring tariff spec</tariffSpecificationType>
+            <amount>-605.0</amount>
+          </TariffValueSpec>
+          <TariffValueSpec>
+            <tariffSpecificationType>Non recurring tariff spec</tariffSpecificationType>
+            <amount>-405.0</amount>
+          </TariffValueSpec>
+        </TariffSpecification>
+        <TariffSpecification>
+          <tariffAction>Add</tariffAction>
+          <local_financialProductCode>A03</local_financialProductCode>
+          <local_CustomerLabel>MLI</local_CustomerLabel>
+          <TariffValueSpec>
+            <tariffSpecificationType>Recurring tariff spec</tariffSpecificationType>
+            <amount>-82.0</amount>
+          </TariffValueSpec>
+          <TariffValueSpec>
+            <tariffSpecificationType>Non recurring tariff spec</tariffSpecificationType>
+            <amount>-77.0</amount>
+          </TariffValueSpec>
+        </TariffSpecification>
+      </PricePlanSpecification>
+    </OfferSpecification>
+    <ChargedTo>
+      <AppliedChargeSplittingCriteria>
+        <appliedChargeType>all charges</appliedChargeType>
+        <BillingAccount>
+          <billingAccountID>TESTMEP902</billingAccountID>
+          <local_changeBilling>false</local_changeBilling>
+        </BillingAccount>
+      </AppliedChargeSplittingCriteria>
+    </ChargedTo>
+    <ProductOrderItem>
+      <productOrderItemID>1</productOrderItemID>
+      <FunctionalOperation>
+        <functionalOperationType>creation</functionalOperationType>
+      </FunctionalOperation>
+      <ProductSpecification>
+        <productSpecificationCode>CCA On line Portal</productSpecificationCode>
+      </ProductSpecification>
+      <ToBeInstalledAt>
+        <Site>
+          <siteID>CI00014080</siteID>
+          <addressID>CI00014157</addressID>
+          <referentialName>CSM</referentialName>
+        </Site>
+      </ToBeInstalledAt>
+    </ProductOrderItem>
+  </CustomerOrderItem>
+</CustomerOrder>
+<Local_FlowInformation>
+  <transactionID>7c5bd250wadry</transactionID>
+</Local_FlowInformation></root:CreateCustomerOrder></SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,528 @@
+2018-07-09 14:47:40,188 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,188 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,188 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:40,188 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,188 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,188 INFO  [Log] #### ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-07-09 14:47:40,188 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:40,188 INFO  [Log] X 
+2018-07-09 14:47:40,188 INFO  [Log] X 
+2018-07-09 14:47:40,188 INFO  [Log] X 
+2018-07-09 14:47:40,188 INFO  [Log] X 
+2018-07-09 14:47:40,188 INFO  [Log] #### Opening Order Stage Commercial of GOLD_RTC_49_11_1 #### 
+2018-07-09 14:47:40,430 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,430 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,430 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:40,430 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,430 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,431 INFO  [Log] #### ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-07-09 14:47:40,431 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:40,431 INFO  [Log] X 
+2018-07-09 14:47:40,431 INFO  [Log] X 
+2018-07-09 14:47:40,431 INFO  [Log] X 
+2018-07-09 14:47:40,431 INFO  [Log] X 
+2018-07-09 14:47:40,431 INFO  [Log] #### Opening Order Stage Technical of GOLD_RTC_49_11_1 #### 
+2018-07-09 14:47:40,576 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,577 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,577 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:40,577 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,577 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,577 INFO  [Log] #### ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-07-09 14:47:40,577 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:40,577 INFO  [Log] X 
+2018-07-09 14:47:40,577 INFO  [Log] X 
+2018-07-09 14:47:40,577 INFO  [Log] X 
+2018-07-09 14:47:40,577 INFO  [Log] X 
+2018-07-09 14:47:40,577 INFO  [Log] #### Opening Order Stage Pricing of GOLD_RTC_49_11_1 #### 
+2018-07-09 14:47:40,956 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,957 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,957 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:40,957 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,957 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:40,957 INFO  [Log] #### ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-07-09 14:47:40,957 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:40,957 INFO  [Log] X 
+2018-07-09 14:47:40,957 INFO  [Log] X 
+2018-07-09 14:47:40,957 INFO  [Log] X 
+2018-07-09 14:47:40,957 INFO  [Log] X 
+2018-07-09 14:47:40,957 INFO  [Log] #### Opening Order Stage SendToCustomer of GOLD_RTC_49_11_1 #### 
+2018-07-09 14:47:41,217 INFO  [Log] #### Opening Order Stage Functionalities of GOLD_RTC_14_3 #### 
+2018-07-09 14:47:41,248 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,248 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,248 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:41,248 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,248 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,248 INFO  [Log] #### ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-07-09 14:47:41,248 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:41,248 INFO  [Log] X 
+2018-07-09 14:47:41,248 INFO  [Log] X 
+2018-07-09 14:47:41,248 INFO  [Log] X 
+2018-07-09 14:47:41,248 INFO  [Log] X 
+2018-07-09 14:47:41,249 INFO  [Log] #### Opening Order Stage CustomerApproval of GOLD_RTC_49_11_1 #### 
+2018-07-09 14:47:41,398 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,398 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,398 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:41,398 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,398 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,398 INFO  [Log] #### ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-07-09 14:47:41,398 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:41,398 INFO  [Log] X 
+2018-07-09 14:47:41,398 INFO  [Log] X 
+2018-07-09 14:47:41,398 INFO  [Log] X 
+2018-07-09 14:47:41,398 INFO  [Log] X 
+2018-07-09 14:47:41,398 INFO  [Log] #### Opening Order Stage CheckAndRelease of GOLD_RTC_49_11_1 #### 
+2018-07-09 14:47:41,663 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,663 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,663 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:41,663 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,663 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,663 INFO  [Log] #### ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-07-09 14:47:41,663 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:41,663 INFO  [Log] X 
+2018-07-09 14:47:41,663 INFO  [Log] X 
+2018-07-09 14:47:41,663 INFO  [Log] X 
+2018-07-09 14:47:41,663 INFO  [Log] X 
+2018-07-09 14:47:41,663 INFO  [Log] #### Opening Order Stage Manage of GOLD_RTC_49_11_1 #### 
+2018-07-09 14:47:41,852 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,852 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,852 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:41,852 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,852 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:41,852 INFO  [Log] #### ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-07-09 14:47:41,852 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:41,852 INFO  [Log] X 
+2018-07-09 14:47:41,852 INFO  [Log] X 
+2018-07-09 14:47:41,852 INFO  [Log] X 
+2018-07-09 14:47:41,852 INFO  [Log] X 
+2018-07-09 14:47:41,852 INFO  [Log] #### Opening Order Stage Acceptance of GOLD_RTC_49_11_1 #### 
+2018-07-09 14:47:42,195 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,195 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,195 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:42,195 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,195 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,195 INFO  [Log] #### ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-07-09 14:47:42,195 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:42,195 INFO  [Log] X 
+2018-07-09 14:47:42,195 INFO  [Log] X 
+2018-07-09 14:47:42,195 INFO  [Log] X 
+2018-07-09 14:47:42,195 INFO  [Log] X 
+2018-07-09 14:47:42,195 INFO  [Log] #### Opening Order Stage Billing of GOLD_RTC_49_11_1 #### 
+2018-07-09 14:47:42,563 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,564 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,564 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:42,564 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,564 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,564 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 14:47:42,565 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:42,565 INFO  [Log] X 
+2018-07-09 14:47:42,565 INFO  [Log] X 
+2018-07-09 14:47:42,565 INFO  [Log] X 
+2018-07-09 14:47:42,565 INFO  [Log] X 
+2018-07-09 14:47:42,565 INFO  [Log] #### Opening Order Stage Commercial of GOLD_RTC_14_3 #### 
+2018-07-09 14:47:42,809 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,809 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,809 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:42,809 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,809 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:42,809 INFO  [Log] #### ### Test case no: GOLD_RTC_49_11_1; Description: Verify in case of New Order, GOLD should update corresponding details after receiving RFB flow corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-07-09 14:47:42,809 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:42,809 INFO  [Log] X 
+2018-07-09 14:47:42,809 INFO  [Log] X 
+2018-07-09 14:47:42,809 INFO  [Log] X 
+2018-07-09 14:47:42,809 INFO  [Log] X 
+2018-07-09 14:47:42,853 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:42,965 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:43,087 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:43,282 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:43,282 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:43,282 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:43,282 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:43,282 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:43,282 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 14:47:43,282 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:43,282 INFO  [Log] X 
+2018-07-09 14:47:43,282 INFO  [Log] X 
+2018-07-09 14:47:43,282 INFO  [Log] X 
+2018-07-09 14:47:43,282 INFO  [Log] X 
+2018-07-09 14:47:43,282 INFO  [Log] #### Opening Order Stage Technical of GOLD_RTC_14_3 #### 
+2018-07-09 14:47:43,363 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:43,614 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:43,739 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:43,818 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:43,818 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:43,818 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:43,818 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:43,818 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:43,818 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 14:47:43,819 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:43,819 INFO  [Log] X 
+2018-07-09 14:47:43,819 INFO  [Log] X 
+2018-07-09 14:47:43,819 INFO  [Log] X 
+2018-07-09 14:47:43,819 INFO  [Log] X 
+2018-07-09 14:47:43,819 INFO  [Log] #### Opening Order Stage Pricing of GOLD_RTC_14_3 #### 
+2018-07-09 14:47:43,844 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:44,158 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:44,158 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:44,158 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:44,159 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:44,159 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:44,159 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 14:47:44,159 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:44,159 INFO  [Log] X 
+2018-07-09 14:47:44,159 INFO  [Log] X 
+2018-07-09 14:47:44,159 INFO  [Log] X 
+2018-07-09 14:47:44,159 INFO  [Log] X 
+2018-07-09 14:47:44,159 INFO  [Log] #### Opening Order Stage SendToCustomer of GOLD_RTC_14_3 #### 
+2018-07-09 14:47:44,238 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:44,384 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:44,431 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:44,431 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:44,431 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:44,431 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:44,431 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:44,431 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 14:47:44,431 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:44,431 INFO  [Log] X 
+2018-07-09 14:47:44,431 INFO  [Log] X 
+2018-07-09 14:47:44,431 INFO  [Log] X 
+2018-07-09 14:47:44,431 INFO  [Log] X 
+2018-07-09 14:47:44,431 INFO  [Log] #### Opening Order Stage CustomerApproval of GOLD_RTC_14_3 #### 
+2018-07-09 14:47:44,599 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:44,767 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:44,864 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:44,956 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:45,293 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:45,293 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:45,293 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:45,294 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:45,294 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:45,294 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 14:47:45,294 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:45,295 INFO  [Log] X 
+2018-07-09 14:47:45,295 INFO  [Log] X 
+2018-07-09 14:47:45,295 INFO  [Log] X 
+2018-07-09 14:47:45,295 INFO  [Log] X 
+2018-07-09 14:47:45,295 INFO  [Log] #### Opening Order Stage CheckAndRelease of GOLD_RTC_14_3 #### 
+2018-07-09 14:47:45,715 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:45,744 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:45,745 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:45,745 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:45,745 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:45,745 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:45,745 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 14:47:45,745 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:45,745 INFO  [Log] X 
+2018-07-09 14:47:45,745 INFO  [Log] X 
+2018-07-09 14:47:45,745 INFO  [Log] X 
+2018-07-09 14:47:45,745 INFO  [Log] X 
+2018-07-09 14:47:45,745 INFO  [Log] #### Opening Order Stage Manage of GOLD_RTC_14_3 #### 
+2018-07-09 14:47:46,046 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,046 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,046 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:46,046 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,046 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,047 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 14:47:46,047 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:46,047 INFO  [Log] X 
+2018-07-09 14:47:46,047 INFO  [Log] X 
+2018-07-09 14:47:46,047 INFO  [Log] X 
+2018-07-09 14:47:46,047 INFO  [Log] X 
+2018-07-09 14:47:46,047 INFO  [Log] #### Opening Order Stage Acceptance of GOLD_RTC_14_3 #### 
+2018-07-09 14:47:46,394 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,395 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,395 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:46,395 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,395 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,395 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 14:47:46,395 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:46,395 INFO  [Log] X 
+2018-07-09 14:47:46,395 INFO  [Log] X 
+2018-07-09 14:47:46,395 INFO  [Log] X 
+2018-07-09 14:47:46,395 INFO  [Log] X 
+2018-07-09 14:47:46,395 INFO  [Log] #### Opening Order Stage Billing of GOLD_RTC_14_3 #### 
+2018-07-09 14:47:46,573 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:46,687 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,688 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,688 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:46,688 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,688 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:46,688 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 14:47:46,688 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 14:47:46,688 INFO  [Log] X 
+2018-07-09 14:47:46,688 INFO  [Log] X 
+2018-07-09 14:47:46,688 INFO  [Log] X 
+2018-07-09 14:47:46,688 INFO  [Log] X 
+2018-07-09 14:47:46,720 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:46,800 INFO  [Log] #### Opening Order Stage Functionalities of GOLD_RTC_47_1_1 #### 
+2018-07-09 14:47:46,953 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:47,146 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:47,264 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:47,389 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:47,536 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:47,670 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:47,829 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:48,467 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:48,646 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:48,764 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:48,866 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:48,936 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:49,046 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:49,147 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:49,320 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:49,671 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:49,822 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:49,991 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:50,113 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:50,219 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:50,358 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:50,500 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:50,602 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:50,786 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:51,068 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:51,200 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:51,318 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:51,433 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:51,600 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:51,777 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:51,913 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:52,100 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:52,257 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:52,397 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:52,482 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:52,552 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:52,612 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:52,664 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:52,719 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:52,811 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:52,872 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:52,942 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:52,992 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:53,042 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:53,177 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:53,247 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:53,297 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:53,357 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:53,407 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:53,457 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:53,507 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:53,567 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:53,617 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:53,687 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:53,777 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:53,832 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:53,920 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:54,005 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:54,056 INFO  [Log] Opening Chrome for Test case execution 
+2018-07-09 14:47:54,097 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:54,167 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:54,237 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:54,312 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:54,394 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:54,484 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:54,554 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:54,634 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:54,684 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:54,764 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:54,845 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:54,905 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:54,985 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:55,045 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:55,125 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:55,185 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:55,255 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:55,315 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:55,365 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:55,555 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:55,735 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:55,956 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:56,158 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:56,390 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:56,581 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:56,800 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:57,015 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:57,177 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:57,389 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:57,611 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:57,825 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:57,982 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:47:58,122 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:47:58,292 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:47:58,457 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:47:58,603 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:47:58,756 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:47:58,846 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:47:58,966 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:47:59,067 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:59,067 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:59,067 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 GOLD_RTC_47_1_1Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 14:47:59,067 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:59,067 INFO  [Log] **************************************************************************************** 
+2018-07-09 14:47:59,067 INFO  [Log] #### Executing Test case: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID. 
+2018-07-09 14:47:59,068 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:47:59,315 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:47:59,485 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:00,083 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:00,337 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:00,501 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:00,646 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:00,829 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:00,940 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:01,085 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:01,214 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:01,317 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:01,416 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:01,507 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:01,603 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:01,707 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:01,794 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:01,899 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:01,980 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:02,058 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:02,143 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:02,216 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:02,325 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:02,395 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:02,465 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:02,525 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:02,595 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:02,675 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:02,745 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:02,836 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:02,948 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:03,048 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:03,138 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:03,219 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:03,289 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:03,362 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:03,471 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:03,581 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:03,683 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:03,733 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:03,783 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:03,855 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:03,958 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:04,065 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:04,155 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:04,242 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:04,371 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:04,542 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:04,713 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:04,876 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:05,013 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:05,022 INFO  [Log] base uri to be open is https://cibase.pexp.equant.com/cib/services/productInventory/v2/products/12-5944 
+2018-07-09 14:48:05,138 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:05,234 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:05,337 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:06,667 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:06,777 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:06,879 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:07,127 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:07,254 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:07,373 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:08,832 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:08,930 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:09,026 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:09,238 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:09,334 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:09,434 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:09,526 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:09,626 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:09,706 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:09,776 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:09,867 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:09,947 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:10,007 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:10,108 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:10,190 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:10,260 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:10,330 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:10,450 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:10,540 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:10,620 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:10,690 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:10,760 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:10,850 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:10,956 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:11,049 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:11,160 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:11,317 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:11,462 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:11,552 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:11,641 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:11,774 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:11,834 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:11,895 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:11,965 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:12,035 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:12,128 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:12,232 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:12,509 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:12,569 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:12,619 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:12,689 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:12,739 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:12,799 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:12,849 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:12,902 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:12,972 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:13,034 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:13,124 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:13,194 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:13,264 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:13,324 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:13,384 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:13,464 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:13,534 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:13,624 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:13,716 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:13,776 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:13,876 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:13,929 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:14,029 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:14,129 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:14,189 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:14,249 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:14,329 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:14,399 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:14,469 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:14,549 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:14,649 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:14,729 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:14,819 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:14,879 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:14,939 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:15,024 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:15,105 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:15,207 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:15,267 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:15,357 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:15,459 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:15,539 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:15,609 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:15,689 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:15,769 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:15,849 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:15,919 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:15,982 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:16,052 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:16,122 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:16,212 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:16,284 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:16,334 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:16,414 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:16,474 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:16,544 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:16,594 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:16,664 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:16,734 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:16,794 INFO  [Log] #### Opening Order Stage Billing of  #### 
+2018-07-09 14:48:16,874 INFO  [Log] #### Opening Order Stage Functionalities of  #### 
+2018-07-09 14:48:16,956 INFO  [Log] #### Opening Order Stage Commercial of  #### 
+2018-07-09 14:48:17,016 INFO  [Log] #### Opening Order Stage Technical of  #### 
+2018-07-09 14:48:17,077 INFO  [Log] #### Opening Order Stage Pricing of  #### 
+2018-07-09 14:48:17,147 INFO  [Log] #### Opening Order Stage SendToCustomer of  #### 
+2018-07-09 14:48:17,229 INFO  [Log] #### Opening Order Stage CustomerApproval of  #### 
+2018-07-09 14:48:17,319 INFO  [Log] #### Opening Order Stage CheckAndRelease of  #### 
+2018-07-09 14:48:17,379 INFO  [Log] #### Opening Order Stage Manage of  #### 
+2018-07-09 14:48:17,439 INFO  [Log] #### Opening Order Stage Acceptance of  #### 
+2018-07-09 14:48:17,509 INFO  [Log] #### Opening Order Stage Billing of  #### 

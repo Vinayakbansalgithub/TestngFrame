@@ -1,0 +1,382 @@
+2018-06-27 16:14:10,482 INFO  [Log] #### Opening Order Stage Functionalities of GOLD_RTC_14_3 #### 
+2018-06-27 16:14:11,273 ERROR [Log] Error#: Browser value is not set in the test case sheet SOAP 
+2018-06-27 16:14:16,273 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:16,273 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:16,273 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 GOLD_RTC_14_3Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:16,273 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:16,273 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:16,273 INFO  [Log] #### Executing Test case: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation 
+2018-06-27 16:14:46,823 FATAL [Log] Step5 : Send SOAP Request and get Response; Element not found 
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at testrunner.TestCaseRunner.teststepsrun(TestCaseRunner.java:713)
+	at testrunner.TestCaseRunner.testsuitrun(TestCaseRunner.java:444)
+	at testrunner.TestCaseRunner.main(TestCaseRunner.java:76)
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Message send failed
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(HttpSOAPConnection.java:149)
+	at configuration.ActionKeyword.getSOAPResponse(ActionKeyword.java:972)
+	at configuration.ActionKeyword.SOAPReqResponse(ActionKeyword.java:992)
+	... 7 more
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Message send failed
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(HttpSOAPConnection.java:282)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(HttpSOAPConnection.java:145)
+	... 9 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1103)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1281)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1256)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(HttpSOAPConnection.java:237)
+	... 10 more
+2018-06-27 16:14:46,832 INFO  [Log] Step5; Send SOAP Request and get Response; Action: Error capture screen 
+2018-06-27 16:14:48,295 ERROR [Log] Error#: ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; status: Failed 
+2018-06-27 16:14:48,303 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:48,303 INFO  [Log] X 
+2018-06-27 16:14:48,303 INFO  [Log] X 
+2018-06-27 16:14:48,304 INFO  [Log] X 
+2018-06-27 16:14:48,304 INFO  [Log] X 
+2018-06-27 16:14:48,304 INFO  [Log] #### Opening Order Stage Commercial of GOLD_RTC_14_3 #### 
+2018-06-27 16:14:48,529 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:48,530 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:48,530 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:48,530 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:48,530 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:48,530 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-06-27 16:14:48,530 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:48,530 INFO  [Log] X 
+2018-06-27 16:14:48,530 INFO  [Log] X 
+2018-06-27 16:14:48,530 INFO  [Log] X 
+2018-06-27 16:14:48,530 INFO  [Log] X 
+2018-06-27 16:14:48,530 INFO  [Log] #### Opening Order Stage Technical of GOLD_RTC_14_3 #### 
+2018-06-27 16:14:48,790 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:48,790 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:48,790 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:48,790 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:48,790 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:48,790 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-06-27 16:14:48,790 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:48,791 INFO  [Log] X 
+2018-06-27 16:14:48,791 INFO  [Log] X 
+2018-06-27 16:14:48,791 INFO  [Log] X 
+2018-06-27 16:14:48,791 INFO  [Log] X 
+2018-06-27 16:14:48,791 INFO  [Log] #### Opening Order Stage Pricing of GOLD_RTC_14_3 #### 
+2018-06-27 16:14:49,009 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,009 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,009 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:49,009 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,009 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,009 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-06-27 16:14:49,009 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:49,009 INFO  [Log] X 
+2018-06-27 16:14:49,009 INFO  [Log] X 
+2018-06-27 16:14:49,009 INFO  [Log] X 
+2018-06-27 16:14:49,009 INFO  [Log] X 
+2018-06-27 16:14:49,009 INFO  [Log] #### Opening Order Stage SendToCustomer of GOLD_RTC_14_3 #### 
+2018-06-27 16:14:49,249 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,249 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,249 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:49,249 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,249 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,250 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-06-27 16:14:49,250 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:49,250 INFO  [Log] X 
+2018-06-27 16:14:49,250 INFO  [Log] X 
+2018-06-27 16:14:49,250 INFO  [Log] X 
+2018-06-27 16:14:49,250 INFO  [Log] X 
+2018-06-27 16:14:49,251 INFO  [Log] #### Opening Order Stage CustomerApproval of GOLD_RTC_14_3 #### 
+2018-06-27 16:14:49,510 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,510 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,510 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:49,510 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,510 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,510 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-06-27 16:14:49,510 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:49,510 INFO  [Log] X 
+2018-06-27 16:14:49,510 INFO  [Log] X 
+2018-06-27 16:14:49,510 INFO  [Log] X 
+2018-06-27 16:14:49,510 INFO  [Log] X 
+2018-06-27 16:14:49,510 INFO  [Log] #### Opening Order Stage CheckAndRelease of GOLD_RTC_14_3 #### 
+2018-06-27 16:14:49,700 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,700 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,700 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:49,700 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,700 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,700 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-06-27 16:14:49,701 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:49,701 INFO  [Log] X 
+2018-06-27 16:14:49,701 INFO  [Log] X 
+2018-06-27 16:14:49,701 INFO  [Log] X 
+2018-06-27 16:14:49,701 INFO  [Log] X 
+2018-06-27 16:14:49,701 INFO  [Log] #### Opening Order Stage Manage of GOLD_RTC_14_3 #### 
+2018-06-27 16:14:49,876 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,876 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,876 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:49,876 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,876 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:49,876 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-06-27 16:14:49,876 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:49,876 INFO  [Log] X 
+2018-06-27 16:14:49,876 INFO  [Log] X 
+2018-06-27 16:14:49,876 INFO  [Log] X 
+2018-06-27 16:14:49,876 INFO  [Log] X 
+2018-06-27 16:14:49,876 INFO  [Log] #### Opening Order Stage Acceptance of GOLD_RTC_14_3 #### 
+2018-06-27 16:14:50,185 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,185 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,185 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:50,185 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,185 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,185 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-06-27 16:14:50,185 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:50,185 INFO  [Log] X 
+2018-06-27 16:14:50,185 INFO  [Log] X 
+2018-06-27 16:14:50,185 INFO  [Log] X 
+2018-06-27 16:14:50,185 INFO  [Log] X 
+2018-06-27 16:14:50,186 INFO  [Log] #### Opening Order Stage Billing of GOLD_RTC_14_3 #### 
+2018-06-27 16:14:50,378 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,378 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,378 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:50,378 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,378 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,378 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-06-27 16:14:50,378 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:50,378 INFO  [Log] X 
+2018-06-27 16:14:50,378 INFO  [Log] X 
+2018-06-27 16:14:50,378 INFO  [Log] X 
+2018-06-27 16:14:50,378 INFO  [Log] X 
+2018-06-27 16:14:50,424 INFO  [Log] #### Opening Order Stage Functionalities of GOLD_RTC_47_1_1 #### 
+2018-06-27 16:14:50,664 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,664 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,664 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:50,667 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,667 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,667 INFO  [Log] #### ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun #### 
+2018-06-27 16:14:50,668 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:50,668 INFO  [Log] X 
+2018-06-27 16:14:50,668 INFO  [Log] X 
+2018-06-27 16:14:50,668 INFO  [Log] X 
+2018-06-27 16:14:50,668 INFO  [Log] X 
+2018-06-27 16:14:50,668 INFO  [Log] #### Opening Order Stage Commercial of GOLD_RTC_47_1_1 #### 
+2018-06-27 16:14:50,866 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,866 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,866 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:50,866 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,867 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:50,867 INFO  [Log] #### ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun #### 
+2018-06-27 16:14:50,867 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:50,867 INFO  [Log] X 
+2018-06-27 16:14:50,867 INFO  [Log] X 
+2018-06-27 16:14:50,867 INFO  [Log] X 
+2018-06-27 16:14:50,867 INFO  [Log] X 
+2018-06-27 16:14:50,867 INFO  [Log] #### Opening Order Stage Technical of GOLD_RTC_47_1_1 #### 
+2018-06-27 16:14:51,071 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,071 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,071 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:51,071 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,071 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,071 INFO  [Log] #### ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun #### 
+2018-06-27 16:14:51,071 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:51,071 INFO  [Log] X 
+2018-06-27 16:14:51,071 INFO  [Log] X 
+2018-06-27 16:14:51,071 INFO  [Log] X 
+2018-06-27 16:14:51,071 INFO  [Log] X 
+2018-06-27 16:14:51,071 INFO  [Log] #### Opening Order Stage Pricing of GOLD_RTC_47_1_1 #### 
+2018-06-27 16:14:51,233 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,233 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,233 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:51,233 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,233 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,233 INFO  [Log] #### ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun #### 
+2018-06-27 16:14:51,233 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:51,233 INFO  [Log] X 
+2018-06-27 16:14:51,233 INFO  [Log] X 
+2018-06-27 16:14:51,233 INFO  [Log] X 
+2018-06-27 16:14:51,233 INFO  [Log] X 
+2018-06-27 16:14:51,233 INFO  [Log] #### Opening Order Stage SendToCustomer of GOLD_RTC_47_1_1 #### 
+2018-06-27 16:14:51,387 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,387 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,387 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:51,387 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,387 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,388 INFO  [Log] #### ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun #### 
+2018-06-27 16:14:51,388 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:51,388 INFO  [Log] X 
+2018-06-27 16:14:51,388 INFO  [Log] X 
+2018-06-27 16:14:51,388 INFO  [Log] X 
+2018-06-27 16:14:51,388 INFO  [Log] X 
+2018-06-27 16:14:51,388 INFO  [Log] #### Opening Order Stage CustomerApproval of GOLD_RTC_47_1_1 #### 
+2018-06-27 16:14:51,533 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,533 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,533 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:51,533 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,533 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,533 INFO  [Log] #### ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun #### 
+2018-06-27 16:14:51,533 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:51,533 INFO  [Log] X 
+2018-06-27 16:14:51,533 INFO  [Log] X 
+2018-06-27 16:14:51,533 INFO  [Log] X 
+2018-06-27 16:14:51,533 INFO  [Log] X 
+2018-06-27 16:14:51,533 INFO  [Log] #### Opening Order Stage CheckAndRelease of GOLD_RTC_47_1_1 #### 
+2018-06-27 16:14:51,702 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,702 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,702 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:51,702 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,702 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,702 INFO  [Log] #### ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun #### 
+2018-06-27 16:14:51,702 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:51,702 INFO  [Log] X 
+2018-06-27 16:14:51,702 INFO  [Log] X 
+2018-06-27 16:14:51,702 INFO  [Log] X 
+2018-06-27 16:14:51,702 INFO  [Log] X 
+2018-06-27 16:14:51,702 INFO  [Log] #### Opening Order Stage Manage of GOLD_RTC_47_1_1 #### 
+2018-06-27 16:14:51,864 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,864 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,864 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:51,864 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,864 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:51,864 INFO  [Log] #### ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun #### 
+2018-06-27 16:14:51,864 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:51,864 INFO  [Log] X 
+2018-06-27 16:14:51,864 INFO  [Log] X 
+2018-06-27 16:14:51,864 INFO  [Log] X 
+2018-06-27 16:14:51,864 INFO  [Log] X 
+2018-06-27 16:14:51,864 INFO  [Log] #### Opening Order Stage Acceptance of GOLD_RTC_47_1_1 #### 
+2018-06-27 16:14:52,046 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,046 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,046 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:52,046 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,046 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,046 INFO  [Log] #### ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun #### 
+2018-06-27 16:14:52,046 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:52,046 INFO  [Log] X 
+2018-06-27 16:14:52,046 INFO  [Log] X 
+2018-06-27 16:14:52,046 INFO  [Log] X 
+2018-06-27 16:14:52,046 INFO  [Log] X 
+2018-06-27 16:14:52,046 INFO  [Log] #### Opening Order Stage Billing of GOLD_RTC_47_1_1 #### 
+2018-06-27 16:14:52,207 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,207 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,207 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:52,207 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,207 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,207 INFO  [Log] #### ### Test case no: GOLD_RTC_47_1_1; Description: Verify in case of New Order, GOLD should update TOS Order/Provisioning order Reference number corresponding to the order while receiving Update TOS order flow on the basis of GOLD Order Number+ USID.; Status: NotRun #### 
+2018-06-27 16:14:52,207 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:52,207 INFO  [Log] X 
+2018-06-27 16:14:52,207 INFO  [Log] X 
+2018-06-27 16:14:52,208 INFO  [Log] X 
+2018-06-27 16:14:52,208 INFO  [Log] X 
+2018-06-27 16:14:52,255 INFO  [Log] #### Opening Order Stage Functionalities of GOLD_RTC_49_1_1 #### 
+2018-06-27 16:14:52,459 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,459 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,459 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:52,459 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,459 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,459 INFO  [Log] #### ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-06-27 16:14:52,459 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:52,459 INFO  [Log] X 
+2018-06-27 16:14:52,459 INFO  [Log] X 
+2018-06-27 16:14:52,459 INFO  [Log] X 
+2018-06-27 16:14:52,459 INFO  [Log] X 
+2018-06-27 16:14:52,459 INFO  [Log] #### Opening Order Stage Commercial of GOLD_RTC_49_1_1 #### 
+2018-06-27 16:14:52,665 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,666 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,666 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:52,666 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,666 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,666 INFO  [Log] #### ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-06-27 16:14:52,666 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:52,666 INFO  [Log] X 
+2018-06-27 16:14:52,666 INFO  [Log] X 
+2018-06-27 16:14:52,666 INFO  [Log] X 
+2018-06-27 16:14:52,666 INFO  [Log] X 
+2018-06-27 16:14:52,666 INFO  [Log] #### Opening Order Stage Technical of GOLD_RTC_49_1_1 #### 
+2018-06-27 16:14:52,793 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,793 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,793 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:52,793 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,793 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,793 INFO  [Log] #### ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-06-27 16:14:52,793 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:52,793 INFO  [Log] X 
+2018-06-27 16:14:52,793 INFO  [Log] X 
+2018-06-27 16:14:52,793 INFO  [Log] X 
+2018-06-27 16:14:52,793 INFO  [Log] X 
+2018-06-27 16:14:52,793 INFO  [Log] #### Opening Order Stage Pricing of GOLD_RTC_49_1_1 #### 
+2018-06-27 16:14:52,915 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,916 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,916 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:52,916 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,916 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:52,916 INFO  [Log] #### ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-06-27 16:14:52,916 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:52,916 INFO  [Log] X 
+2018-06-27 16:14:52,916 INFO  [Log] X 
+2018-06-27 16:14:52,916 INFO  [Log] X 
+2018-06-27 16:14:52,916 INFO  [Log] X 
+2018-06-27 16:14:52,916 INFO  [Log] #### Opening Order Stage SendToCustomer of GOLD_RTC_49_1_1 #### 
+2018-06-27 16:14:53,026 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,026 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,026 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:53,026 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,026 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,026 INFO  [Log] #### ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-06-27 16:14:53,026 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:53,026 INFO  [Log] X 
+2018-06-27 16:14:53,026 INFO  [Log] X 
+2018-06-27 16:14:53,026 INFO  [Log] X 
+2018-06-27 16:14:53,026 INFO  [Log] X 
+2018-06-27 16:14:53,027 INFO  [Log] #### Opening Order Stage CustomerApproval of GOLD_RTC_49_1_1 #### 
+2018-06-27 16:14:53,155 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,155 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,155 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:53,155 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,155 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,155 INFO  [Log] #### ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-06-27 16:14:53,155 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:53,155 INFO  [Log] X 
+2018-06-27 16:14:53,155 INFO  [Log] X 
+2018-06-27 16:14:53,155 INFO  [Log] X 
+2018-06-27 16:14:53,155 INFO  [Log] X 
+2018-06-27 16:14:53,156 INFO  [Log] #### Opening Order Stage CheckAndRelease of GOLD_RTC_49_1_1 #### 
+2018-06-27 16:14:53,272 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,272 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,272 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:53,272 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,272 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,272 INFO  [Log] #### ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-06-27 16:14:53,272 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:53,272 INFO  [Log] X 
+2018-06-27 16:14:53,272 INFO  [Log] X 
+2018-06-27 16:14:53,273 INFO  [Log] X 
+2018-06-27 16:14:53,273 INFO  [Log] X 
+2018-06-27 16:14:53,273 INFO  [Log] #### Opening Order Stage Manage of GOLD_RTC_49_1_1 #### 
+2018-06-27 16:14:53,381 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,381 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,381 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 16:14:53,381 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,381 INFO  [Log] **************************************************************************************** 
+2018-06-27 16:14:53,381 INFO  [Log] #### ### Test case no: GOLD_RTC_49_1_1; Description: Verify in case of New Order, check and release task should get automatically processed after receiving Start of provisioning flow for corresponding to TOS Order of Update ARP flow.; Status: NotRun #### 
+2018-06-27 16:14:53,381 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-06-27 16:14:53,381 INFO  [Log] X 
+2018-06-27 16:14:53,381 INFO  [Log] X 
+2018-06-27 16:14:53,381 INFO  [Log] X 
+2018-06-27 16:14:53,381 INFO  [Log] X 
+2018-06-27 16:14:53,381 INFO  [Log] #### Opening Order Stage Acceptance of GOLD_RTC_49_1_1 #### 

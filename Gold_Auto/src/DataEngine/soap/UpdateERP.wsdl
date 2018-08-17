@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="urn:30I.orange.com:wsdl:UpdateERP/V1/"  xmlns:dime="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:typens="urn:30I.orange.com:UpdateERP/type/"  name="UpdateERP-1.0" targetNamespace="urn:30I.orange.com:wsdl:UpdateERP/V1/">
+	<wsdl:types>
+		<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:30I.orange.com:UpdateERP/type/" xmlns:ins="urn:30I.orange.com:UpdateERP/Input" xmlns:ons="urn:30I.orange.com:UpdateERP/Output">
+			<import namespace="urn:30I.orange.com:UpdateERP/Input" schemaLocation="UpdateERPRequest.xsd"/>
+			<import namespace="urn:30I.orange.com:UpdateERP/Output" schemaLocation="UpdateERPResponse.xsd"/>
+			<element name="UpdateERPRequest" type="ins:UpdateERPRequest"/>
+			<element name="UpdateERPResponse" type="ons:UpdateERPResponse"/>
+		</schema>
+	</wsdl:types>
+	
+	<message name="UpdateERPInput">
+		<part name="UpdateERPRequest" element="typens:UpdateERPRequest"/>
+	</message>
+	<message name="UpdateERPOutput">
+		<part name="UpdateERPResponse" element="typens:UpdateERPResponse"/>
+	</message>
+	<portType name="Ordering_UpdateERP">
+		<operation name="UpdateERPDocumentInfo">
+			<input message="tns:UpdateERPInput"/>
+			<output message="tns:UpdateERPOutput"/>
+		</operation>
+	</portType>
+	<binding name="Ordering_UpdateERP_service" type="tns:Ordering_UpdateERP">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="UpdateERPDocumentInfo">
+			<soap:operation soapAction=""/>
+			<input>
+				<soap:body parts="UpdateERPRequest" use="literal"/>
+			</input>
+			<output>
+				<soap:body parts="UpdateERPResponse" use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="UpdateERP">
+		<port name="UpdateERP" binding="tns:Ordering_UpdateERP_service">
+			<soap:address location="http://10.237.93.136/home/gold/web-services/UpdateERP"/>
+		</port>
+	</service>
+</definitions>

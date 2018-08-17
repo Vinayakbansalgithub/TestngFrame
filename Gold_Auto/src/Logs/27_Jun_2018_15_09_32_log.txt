@@ -1,0 +1,51 @@
+2018-06-27 15:08:02,191 INFO  [Log] #### Opening Order Stage Functionalities of GOLD_RTC_14_3 #### 
+2018-06-27 15:08:02,894 ERROR [Log] Error#: Browser value is not set in the test case sheet SOAP 
+2018-06-27 15:08:07,894 INFO  [Log] **************************************************************************************** 
+2018-06-27 15:08:07,894 INFO  [Log] **************************************************************************************** 
+2018-06-27 15:08:07,894 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 GOLD_RTC_14_3Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-06-27 15:08:07,894 INFO  [Log] **************************************************************************************** 
+2018-06-27 15:08:07,894 INFO  [Log] **************************************************************************************** 
+2018-06-27 15:08:07,894 INFO  [Log] #### Executing Test case: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation 
+2018-06-27 15:08:50,399 FATAL [Log] Step5 : Send SOAP Request and get Response; Element not found 
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at testrunner.TestCaseRunner.teststepsrun(TestCaseRunner.java:713)
+	at testrunner.TestCaseRunner.testsuitrun(TestCaseRunner.java:444)
+	at testrunner.TestCaseRunner.main(TestCaseRunner.java:76)
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Message send failed
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(HttpSOAPConnection.java:149)
+	at configuration.ActionKeyword.getSOAPResponse(ActionKeyword.java:972)
+	at configuration.ActionKeyword.SOAPReqResponse(ActionKeyword.java:992)
+	... 7 more
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Message send failed
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(HttpSOAPConnection.java:282)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(HttpSOAPConnection.java:145)
+	... 9 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1103)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1281)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1256)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(HttpSOAPConnection.java:237)
+	... 10 more
+2018-06-27 15:08:50,431 INFO  [Log] Step5; Send SOAP Request and get Response; Action: Error capture screen 

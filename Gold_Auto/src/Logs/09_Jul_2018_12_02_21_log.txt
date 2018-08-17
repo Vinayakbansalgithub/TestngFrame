@@ -1,0 +1,1 @@
+2018-07-09 12:02:21,356 INFO  [Log] #### Opening Order Stage Functionalities of GOLD_RTC_14_3 #### 

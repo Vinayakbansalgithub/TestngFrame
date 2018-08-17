@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="urn:30I.orange.com:UpdateERP/Output" targetNamespace="urn:30I.orange.com:UpdateERP/Output" elementFormDefault="qualified">
+	<element name="UpdateERPResponse" type="tns:UpdateERPResponse"/>
+	<complexType name="UpdateERPResponse">
+		<sequence>
+			<element name="ResultCode" type="string" nillable="false">
+				<annotation>
+					<documentation>OK/KO</documentation>
+				</annotation>
+			</element>
+			<element name="ErrorsList" nillable="true" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="Error" nillable="false" minOccurs="0" maxOccurs="unbounded">
+							<complexType>
+								<sequence>
+									<element name="ErrorCode" type="string" nillable="false"/>
+									<element name="ErrorMessage" type="string" nillable="true"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</schema>

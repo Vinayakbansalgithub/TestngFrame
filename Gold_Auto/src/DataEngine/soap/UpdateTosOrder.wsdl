@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="urn:30I.orange.com:wsdl:UpdateTosOrder/V1/"  xmlns:dime="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:typens="urn:30I.orange.com:UpdateTosOrder/type/"  name="UpdateTosOrder-1.0" targetNamespace="urn:30I.orange.com:wsdl:UpdateTosOrder/V1/">
+	<wsdl:types>
+		<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:30I.orange.com:UpdateTosOrder/type/" xmlns:ins="urn:30I.orange.com:UpdateTosOrder/Input" xmlns:ons="urn:30I.orange.com:UpdateTosOrder/Output">
+			<import namespace="urn:30I.orange.com:UpdateTosOrder/Input" schemaLocation="UpdateTosOrderRequest.xsd"/>
+			<import namespace="urn:30I.orange.com:UpdateTosOrder/Output" schemaLocation="UpdateTosOrderResponse.xsd"/>
+			<element name="TosUpdateRequest" type="ins:TosUpdateRequest"/>
+			<element name="TosUpdateResponse" type="ons:TosUpdateResponse"/>
+		</schema>
+	</wsdl:types>
+	
+	<message name="GoldProvDataInput">
+		<part name="TosUpdateRequest" element="typens:TosUpdateRequest"/>
+	</message>
+	<message name="GoldProvDataOutput">
+		<part name="TosUpdateResponse" element="typens:TosUpdateResponse"/>
+	</message>
+	<portType name="Ordering_TosUpdate">
+		<operation name="UpdateTosOrderDetail">
+			<input message="tns:GoldProvDataInput"/>
+			<output message="tns:GoldProvDataOutput"/>
+		</operation>
+	</portType>
+	<binding name="Ordering_TosUpdate_service" type="tns:Ordering_TosUpdate">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="UpdateTosOrderDetail">
+			<soap:operation soapAction=""/>
+			<input>
+				<soap:body parts="TosUpdateRequest" use="literal"/>
+			</input>
+			<output>
+				<soap:body parts="TosUpdateResponse" use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="UpdateTosOrder">
+		<port name="UpdateTosOrder" binding="tns:Ordering_TosUpdate_service">
+			<soap:address location="http://10.237.93.136/home/gold/web-services/UpdateTosOrder"/>
+		</port>
+	</service>
+</definitions>

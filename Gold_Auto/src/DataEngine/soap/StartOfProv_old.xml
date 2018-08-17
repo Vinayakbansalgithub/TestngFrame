@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:inp="urn:30I.orange.com:UpdateARP/Input" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:type="urn:30I.orange.com:UpdateARP/type/">
+   <soapenv:Header/>
+   <soapenv:Body>
+     <typens:UpdateARPRequest xmlns:ins="urn:30I.orange.com:UpdateARP/Input" xmlns:typens="urn:30I.orange.com:UpdateARP/type/">
+  <ins:ARP>
+    <ins:IssuerUnit>EQUANT</ins:IssuerUnit>
+    <ins:IssuerUnitApplication>SESAM</ins:IssuerUnitApplication>
+    <ins:Status>
+      <ins:Code>OK</ins:Code>
+    </ins:Status>
+    <ins:Activity>
+      <ins:Service>
+        <ins:IssuerID>
+          <ins:UserID>GO03TM6084</ins:UserID>
+          <ins:InternalID>test12</ins:InternalID>
+        </ins:IssuerID>
+        <ins:DestinationID>
+          <ins:UserID>GO03TM6084</ins:UserID>
+          <ins:InternalID>819965</ins:InternalID>
+        </ins:DestinationID>
+      </ins:Service>
+      <ins:ActivityGroup>Start Of Provisioning</ins:ActivityGroup>
+      <ins:ActivityDate>2009-09-18T07:47:35.197+02:00</ins:ActivityDate>
+      <ins:ParametersList>
+        <ins:Section>ACTIVITY</ins:Section>
+        <ins:SectionComplement>PROPERTIES</ins:SectionComplement>
+        <ins:Parameters>
+          <ins:Code>SIOCREDAT</ins:Code>
+          <ins:Value>2009-09-18T05:41:37.000+0000</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>ROUNAM</ins:Code>
+          <ins:Value>ASD1234</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>PRVTDDAT</ins:Code>
+          <ins:Value>2009-12-02T00:00:00.000+0000</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>FI50493034</ins:Code>
+          <ins:Value>FI50493034</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>CHILDORD1</ins:Code>
+          <ins:Value>1202736D1</ins:Value>
+        </ins:Parameters>
+      </ins:ParametersList>
+    </ins:Activity>
+  </ins:ARP>
+</typens:UpdateARPRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

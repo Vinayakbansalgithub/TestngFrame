@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:inp="urn:30I.orange.com:UpdateERP/Input" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:type="urn:30I.orange.com:UpdateERP/type/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <typens:UpdateERPRequest xmlns:ins="urn:30I.orange.com:UpdateERP/Input" xmlns:typens="urn:30I.orange.com:UpdateERP/type/">
+  <ins:ERP>
+    <ins:ERPInformations>
+      <ins:Category>INFO</ins:Category>
+      <ins:Label>Update SDM Info</ins:Label>
+      <ins:Status>
+        <ins:Code>OK</ins:Code>
+      </ins:Status>
+      <ins:Dates>
+        <ins:SentDate>2009-09-18T07:52:13.376+02:00</ins:SentDate>
+      </ins:Dates>
+      <ins:ParametersList>
+        <ins:Section>ACTIVITY</ins:Section>
+        <ins:SectionComplement>PROPERTIES</ins:SectionComplement>
+        <ins:Parameters>
+          <ins:Code>SDMFSTNAM</ins:Code>
+          <ins:Value>Omar</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>SDMLSTNAM</ins:Code>
+          <ins:Value>abulazm</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>SDMEMLADR</ins:Code>
+          <ins:Value>sesamete@orange-ftgroup.com</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>SDMSESID</ins:Code>
+          <ins:Value>OAbulazm</ins:Value>
+        </ins:Parameters>
+      </ins:ParametersList>
+    </ins:ERPInformations>
+    <ins:Service>
+      <ins:ServiceIDIssued>
+           <ins:UserID>GO02LWYNB2</ins:UserID>
+        <ins:InternalID>test1</ins:InternalID>
+      </ins:ServiceIDIssued>
+      <ins:ServiceIDDestination>
+        <ins:UserID>GO02LWYNB2</ins:UserID>
+        <ins:InternalID>983270</ins:InternalID>
+      </ins:ServiceIDDestination>
+    </ins:Service>
+    <ins:RefDomainAdminSource>
+      <ins:Domain>PROVISIONING</ins:Domain>
+      <ins:Tool>SESAM</ins:Tool>
+      <ins:OwnerOrganization>EQUANT</ins:OwnerOrganization>
+    </ins:RefDomainAdminSource>
+    <ins:RefDomainAdminTarget>
+      <ins:Domain>ORDERING</ins:Domain>
+      <ins:DomainAdd>CRM</ins:DomainAdd>
+      <ins:OwnerOrganization>EQUANT</ins:OwnerOrganization>
+    </ins:RefDomainAdminTarget>
+  </ins:ERP>
+</typens:UpdateERPRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

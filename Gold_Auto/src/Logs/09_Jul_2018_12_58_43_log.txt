@@ -1,0 +1,109 @@
+2018-07-09 12:58:28,367 INFO  [Log] #### Opening Order Stage Functionalities of GOLD_RTC_14_3 #### 
+2018-07-09 12:58:29,326 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:29,326 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:29,326 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 12:58:29,326 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:29,326 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:29,326 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 12:58:29,327 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 12:58:29,327 INFO  [Log] X 
+2018-07-09 12:58:29,327 INFO  [Log] X 
+2018-07-09 12:58:29,327 INFO  [Log] X 
+2018-07-09 12:58:29,327 INFO  [Log] X 
+2018-07-09 12:58:29,327 INFO  [Log] #### Opening Order Stage Commercial of GOLD_RTC_14_3 #### 
+2018-07-09 12:58:29,796 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:29,796 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:29,796 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 12:58:29,796 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:29,797 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:29,797 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 12:58:29,797 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 12:58:29,797 INFO  [Log] X 
+2018-07-09 12:58:29,797 INFO  [Log] X 
+2018-07-09 12:58:29,797 INFO  [Log] X 
+2018-07-09 12:58:29,797 INFO  [Log] X 
+2018-07-09 12:58:29,797 INFO  [Log] #### Opening Order Stage Technical of GOLD_RTC_14_3 #### 
+2018-07-09 12:58:30,213 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,214 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,214 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 12:58:30,214 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,214 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,214 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 12:58:30,214 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 12:58:30,214 INFO  [Log] X 
+2018-07-09 12:58:30,214 INFO  [Log] X 
+2018-07-09 12:58:30,214 INFO  [Log] X 
+2018-07-09 12:58:30,214 INFO  [Log] X 
+2018-07-09 12:58:30,214 INFO  [Log] #### Opening Order Stage Pricing of GOLD_RTC_14_3 #### 
+2018-07-09 12:58:30,550 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,550 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,550 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 12:58:30,550 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,550 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,550 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 12:58:30,550 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 12:58:30,550 INFO  [Log] X 
+2018-07-09 12:58:30,550 INFO  [Log] X 
+2018-07-09 12:58:30,550 INFO  [Log] X 
+2018-07-09 12:58:30,550 INFO  [Log] X 
+2018-07-09 12:58:30,550 INFO  [Log] #### Opening Order Stage SendToCustomer of GOLD_RTC_14_3 #### 
+2018-07-09 12:58:30,891 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,891 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,891 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 12:58:30,891 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,891 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:30,891 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 12:58:30,891 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 12:58:30,891 INFO  [Log] X 
+2018-07-09 12:58:30,891 INFO  [Log] X 
+2018-07-09 12:58:30,891 INFO  [Log] X 
+2018-07-09 12:58:30,891 INFO  [Log] X 
+2018-07-09 12:58:30,892 INFO  [Log] #### Opening Order Stage CustomerApproval of GOLD_RTC_14_3 #### 
+2018-07-09 12:58:31,210 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,210 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,210 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 12:58:31,210 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,210 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,210 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 12:58:31,210 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 12:58:31,210 INFO  [Log] X 
+2018-07-09 12:58:31,210 INFO  [Log] X 
+2018-07-09 12:58:31,211 INFO  [Log] X 
+2018-07-09 12:58:31,211 INFO  [Log] X 
+2018-07-09 12:58:31,211 INFO  [Log] #### Opening Order Stage CheckAndRelease of GOLD_RTC_14_3 #### 
+2018-07-09 12:58:31,499 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,499 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,499 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 12:58:31,499 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,499 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,500 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 12:58:31,500 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 12:58:31,500 INFO  [Log] X 
+2018-07-09 12:58:31,500 INFO  [Log] X 
+2018-07-09 12:58:31,500 INFO  [Log] X 
+2018-07-09 12:58:31,500 INFO  [Log] X 
+2018-07-09 12:58:31,500 INFO  [Log] #### Opening Order Stage Manage of GOLD_RTC_14_3 #### 
+2018-07-09 12:58:31,780 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,781 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,781 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 12:58:31,781 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,781 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:31,781 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 12:58:31,781 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 12:58:31,781 INFO  [Log] X 
+2018-07-09 12:58:31,781 INFO  [Log] X 
+2018-07-09 12:58:31,781 INFO  [Log] X 
+2018-07-09 12:58:31,781 INFO  [Log] X 
+2018-07-09 12:58:31,781 INFO  [Log] #### Opening Order Stage Acceptance of GOLD_RTC_14_3 #### 
+2018-07-09 12:58:32,009 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:32,009 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:32,009 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-07-09 12:58:32,009 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:32,009 INFO  [Log] **************************************************************************************** 
+2018-07-09 12:58:32,009 INFO  [Log] #### ### Test case no: GOLD_RTC_14_3; Description: Verify, QUOTO<>GOLD flow for L3 new order should be working fine with all existing validation; Status: NotRun #### 
+2018-07-09 12:58:32,009 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-07-09 12:58:32,009 INFO  [Log] X 
+2018-07-09 12:58:32,009 INFO  [Log] X 
+2018-07-09 12:58:32,009 INFO  [Log] X 
+2018-07-09 12:58:32,009 INFO  [Log] X 
+2018-07-09 12:58:32,009 INFO  [Log] #### Opening Order Stage Billing of GOLD_RTC_14_3 #### 

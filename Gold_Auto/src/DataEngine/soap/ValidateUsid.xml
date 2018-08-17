@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:inp="urn:30I.orange.com:ValidateGoldUsid/Input" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:type="urn:30I.orange.com:ValidateGoldUsid/type/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <type:OrderNumberUsidRequest>
+         <inp:GOLDOrderNumber>984486</inp:GOLDOrderNumber>
+         <inp:GOLDUSID>GO06F9LH80</inp:GOLDUSID>
+      </type:OrderNumberUsidRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

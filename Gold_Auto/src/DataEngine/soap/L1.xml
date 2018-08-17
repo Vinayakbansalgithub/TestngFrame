@@ -1,0 +1,41 @@
+<GRPProduct
+    xsi:schemaLocation = "http://grp.equant.com/Catalog/Catalogxml"
+    xmlns = "http://grp.equant.com/Catalog"
+    xmlns:obj = "http://grp.equant.com/Catalog/Objects"
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance">
+    <ContentList/>
+    <ProductList>
+        <Product
+            Name = "My Sample Test"
+OCatID="3-OC9999999"
+RelyOn="test" 
+            FPC = "L47"
+            LoB = "IS - OTB"
+            PSID = "TES672"
+            ProductVersion = "1.1.1">
+            <obj:Usage
+                BoundaryCharge = "false"
+                ServiceBuild = "false"
+                IsCatalogIDDeduction = "false"
+                SCNMandatory = "true"
+                ProvisioningInterface = "false"
+                Standalone = "true"
+                IsAssociatedService = "false"
+                IsService = "false"/>
+            <obj:Bundle BundledService = "false" BundleSolution = "NORMALORDERS"/>
+            <obj:Installation InstallationPreferences = "false" LeadTimeDays = "0"/>
+            <obj:Activation
+                Active = "true"
+                ActiveForProjects = "false"
+                ActiveForChangeOrders = "false"
+                ActiveForDisconnectOrders = "false"
+                ActiveForNewOrders = "false"
+                ManualLinesOnQuoto = "0"/>
+            <obj:CatalogList>
+                <obj:Catalog>New Equant (Purple)</obj:Catalog>
+            </obj:CatalogList>
+            <obj:ComponentList/>
+        </Product>
+    </ProductList>
+    <SelectionList/>
+</GRPProduct>

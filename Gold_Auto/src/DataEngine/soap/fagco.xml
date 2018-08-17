@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:root="http://www.orange.com/GOLD/Interfaces/ManageCustomerOrder/CustomerOrderCapture/v1/root" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+    <root:FindAndGetCustomerOrder>
+      <CustomerOrderFindCriteria>
+    <customerOrderID>10-1011038</customerOrderID>
+    <CustomerOrderItem>
+        <OfferSpecification>
+            <offerSpecificationCode/>
+        </OfferSpecification>
+    </CustomerOrderItem>
+</CustomerOrderFindCriteria>
+<FilterCriteriaCustomerOrder>
+<maxWishedResults>10</maxWishedResults>
+<restartRange>0</restartRange>
+<customerOrderViewLevel>product order item</customerOrderViewLevel>
+<customerOrderViewLevel>product order item</customerOrderViewLevel>
+</FilterCriteriaCustomerOrder>
+</root:FindAndGetCustomerOrder>
+</soapenv:Body>
+</soapenv:Envelope>

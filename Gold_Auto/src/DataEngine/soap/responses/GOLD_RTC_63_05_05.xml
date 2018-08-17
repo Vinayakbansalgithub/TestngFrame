@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Body xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><UpdateERPResponse xmlns="urn:30I.orange.com:UpdateERP/type/"><ns1:ResultCode xmlns:ns1="urn:30I.orange.com:UpdateERP/Output">OK</ns1:ResultCode></UpdateERPResponse></soapenv:Body>

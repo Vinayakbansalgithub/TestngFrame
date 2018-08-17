@@ -1,0 +1,238 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>Gold_Auto</groupId>
+	<artifactId>Gold_Auto</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+
+
+
+
+
+	<dependencies>
+
+
+
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.0.2</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20090211</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.3</version>
+		</dependency>
+
+
+
+
+
+		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4 -->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>sqljdbc4</artifactId>
+			<version>2.0</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+		</dependency>
+		<dependency>
+			<groupId>pl.pragmatists</groupId>
+			<artifactId>JUnitParams</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+
+
+
+		<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-java</artifactId> 
+			<version>2.47.1</version> </dependency> -->
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
+		<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-firefox-driver</artifactId> 
+			<version>2.53.0</version> </dependency> -->
+
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>xml-apis</groupId>
+			<artifactId>xml-apis</artifactId>
+			<version>1.4.01</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>3.0.2.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.sikuli/sikuli-core -->
+
+		<!-- https://mvnrepository.com/artifact/com.googlecode.javacpp/javacpp -->
+		<dependency>
+			<groupId>com.googlecode.javacpp</groupId>
+			<artifactId>javacpp</artifactId>
+			<version>0.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.8</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.apis</groupId>
+			<artifactId>google-api-services-sheets</artifactId>
+			<version>v4-rev460-1.22.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.api.client</groupId>
+			<artifactId>google-api-data-spreadsheet-v3</artifactId>
+			<version>1.0.10-alpha</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.gdata</groupId>
+			<artifactId>core</artifactId>
+			<version>1.47.1</version>
+		</dependency>
+
+
+
+
+
+		<dependency>
+			<groupId>com.google.http-client</groupId>
+			<artifactId>google-http-client-jackson</artifactId>
+			<version>1.22.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.api-client</groupId>
+			<artifactId>google-api-client</artifactId>
+			<version>1.22.0</version>
+		</dependency>
+		<dependency>
+			<groupId>in.jlibs</groupId>
+			<artifactId>jlibs-core</artifactId>
+			<version>2.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-client -->
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.19.4</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.monte/screen-recorder -->
+		<!-- https://mvnreposi`tory.com/artifact/ru.sbtqa.tag/video-recorder -->
+
+
+		<dependency>
+			<groupId>ru.sbtqa.tag</groupId>																						
+			<artifactId>video-recorder</artifactId>
+			<version>1.0.6</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.monte/monte-screen-recorder -->
+
+	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.json</groupId>
+				<artifactId>json</artifactId>
+				<version>20090211</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+
+
+</project>

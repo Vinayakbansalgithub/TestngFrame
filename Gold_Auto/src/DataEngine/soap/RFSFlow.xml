@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:inp="urn:30I.orange.com:UpdateARP/Input" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:type="urn:30I.orange.com:UpdateARP/type/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <typens:UpdateARPRequest xmlns:ins="urn:30I.orange.com:UpdateARP/Input" xmlns:typens="urn:30I.orange.com:UpdateARP/type/">
+  <ins:ARP>
+    <ins:IssuerUnit>EQUANT</ins:IssuerUnit>
+    <ins:IssuerUnitApplication>FILADE</ins:IssuerUnitApplication>
+    <ins:Status>
+      <ins:Code>OK</ins:Code>
+    </ins:Status>
+    <ins:Activity>
+      <ins:Service>
+        <ins:IssuerID>
+          <ins:UserID>GO070M69D8</ins:UserID>
+          <ins:InternalID>test1</ins:InternalID>
+        </ins:IssuerID>
+        <ins:DestinationID>
+          <ins:UserID>GO070M69D8</ins:UserID>
+          <ins:InternalID>1014503</ins:InternalID>
+        </ins:DestinationID>
+      </ins:Service>
+      <ins:ActivityGroup>End Of Provisioning</ins:ActivityGroup>
+      <ins:ActivityDate>2010-12-09T15:43:26.385+01:00</ins:ActivityDate>
+      <ins:ParametersList>
+        <ins:Section>ACTIVITY</ins:Section>
+        <ins:SectionComplement>PROPERTIES</ins:SectionComplement>
+        <ins:Parameters>
+          <ins:Code>RFSDAT</ins:Code>
+          <ins:Value>2010-11-26T00:00:00.000+0000</ins:Value>
+        </ins:Parameters>
+        <ins:Parameters>
+          <ins:Code>CUSDEFCOD</ins:Code>
+          <ins:Value>12312312 </ins:Value>
+        </ins:Parameters>
+      </ins:ParametersList>
+    </ins:Activity>
+  </ins:ARP>
+</typens:UpdateARPRequest>
+</soapenv:Body>
+</soapenv:Envelope>

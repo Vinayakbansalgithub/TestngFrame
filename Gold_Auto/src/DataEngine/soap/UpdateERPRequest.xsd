@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:tns="urn:30I.orange.com:UpdateERP/Input"  targetNamespace="urn:30I.orange.com:UpdateERP/Input">
+	<element name="UpdateERPRequest" type="tns:UpdateERPRequest" />
+	<complexType name="UpdateERPRequest">
+		<sequence>
+			<element name="ERP">
+				<annotation>
+					<documentation>Liste des éléments utilisés dans le cadre du compte-rendu évènementiel</documentation>
+				</annotation>
+				<complexType>
+					<sequence>
+						<element name="SenderInformation" nillable="false" minOccurs="0">
+							<annotation>
+								<documentation>Informations relatives à l'émetteur</documentation>
+							</annotation>
+							<complexType>
+								<sequence>
+									<element name="SenderReference" type="tns:ParameterType" nillable="false" minOccurs="0">
+										<annotation>
+											<documentation>Référence</documentation>
+										</annotation>
+									</element>
+									<element name="Contact" type="tns:ContactType" nillable="false" minOccurs="0" maxOccurs="unbounded">
+										<annotation>
+											<documentation>Informations de la "personne "associée" :  émetteur du compte-rendu évènementiel</documentation>
+										</annotation>
+									</element>
+								</sequence>
+							</complexType>
+						</element>
+						<element name="ERPInformations">
+							<annotation>
+								<documentation>Informations relatives au compte-rendu évènementiel</documentation>
+							</annotation>
+							<complexType>
+								<sequence>
+									<element name="Category" type="string" nillable="false">
+										<annotation>
+											<documentation>Catégorie d'évènement : ALERTE, REPORT, COMMENTAIRE, PJ, ...</documentation>
+										</annotation>
+									</element>
+									<element name="Label" type="string" nillable="false">
+										<annotation>
+											<documentation>Libellé d'évènement de la catégorie mentionnée</documentation>
+										</annotation>
+									</element>
+									<element name="Status" nillable="false">
+										<annotation>
+											<documentation>Statut</documentation>
+										</annotation>
+										<complexType>
+											<sequence>
+												<element name="Code" type="string" nillable="false">
+													<annotation>
+														<documentation>Pour l'alerte : CREATION, PEC ou ACK. Pour le report : OK systématiquement</documentation>
+													</annotation>
+												</element>
+												<element name="Comment" type="string" nillable="true" minOccurs="0">
+													<annotation>
+														<documentation>Commentaire en complément du code ci-dessus</documentation>
+													</annotation>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+									<element name="Level" minOccurs="0">
+										<annotation>
+											<documentation>Degré de qualification</documentation>
+										</annotation>
+										<complexType>
+											<sequence>
+												<element name="Code" type="string" nillable="false">
+													<annotation>
+														<documentation>Type d'alerte : ACT pour action, INF pour information, ...Type de report : PRODUCTION / MIGRATION</documentation>
+													</annotation>
+												</element>
+												<element name="Comment" type="string" nillable="true" minOccurs="0">
+													<annotation>
+														<documentation>Commentaire en complément du code ci-dessus</documentation>
+													</annotation>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+									<element name="Reason" minOccurs="0" maxOccurs="unbounded">
+										<annotation>
+											<documentation>Motif de report, Cause d'alerte</documentation>
+										</annotation>
+										<complexType>
+											<sequence>
+												<element name="Code" type="string" nillable="false">
+													<annotation>
+														<documentation>Code de report, cause d'alerte</documentation>
+													</annotation>
+												</element>
+												<element name="Comment" type="string" nillable="true" minOccurs="0">
+													<annotation>
+														<documentation>Commentaire en complément du code ci-dessus</documentation>
+													</annotation>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+									<element name="Dates">
+										<annotation>
+											<documentation>Bloc Dates liées au compte-rendu évènementiel</documentation>
+										</annotation>
+										<complexType>
+											<sequence>
+												<element name="SentDate" type="dateTime">
+													<annotation>
+														<documentation>Date d'envoi du compte-rendu évènementiel</documentation>
+													</annotation>
+												</element>
+												<element name="ModifiedTargetDate" type="date" minOccurs="0">
+													<annotation>
+														<documentation>Date de modification d'objectif (report, anticipation)</documentation>
+													</annotation>
+												</element>
+												<element name="ModifiedTargetBeginPeriod" type="string" minOccurs="0">
+													<annotation>
+														<documentation>Plage Horaire de début de modification d'objectif (report, anticipation)</documentation>
+													</annotation>
+												</element>
+												<element name="ModifiedTargetEndPeriod" type="string" minOccurs="0">
+													<annotation>
+														<documentation>Plage Horaire de fin de modification d'objectif (report, anticipation)</documentation>
+													</annotation>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+									<element name="CommentInformation" type="tns:ComplexCommentType" nillable="true" minOccurs="0" maxOccurs="unbounded">
+										<annotation>
+											<documentation>Bloc de commentaire(s) lié(s) au compte-rendu évènementiel</documentation>
+										</annotation>
+									</element>
+									<element name="ParametersList" type="tns:ParameterListType" minOccurs="0" maxOccurs="unbounded"/>
+									<element name="AttachedFile" type="tns:AttachedFileType" minOccurs="0" maxOccurs="unbounded"/>
+								</sequence>
+							</complexType>
+						</element>
+						<element name="ERPIDIssued" type="tns:IdentifierType" nillable="false" minOccurs="0">
+							<annotation>
+								<documentation>Identifiants du compte-rendu évènementiel connu de l'émetteur</documentation>
+							</annotation>
+						</element>
+						<element name="ERPIDDestination" type="tns:IdentifierType" nillable="false" minOccurs="0">
+							<annotation>
+								<documentation>Identifiants du compte-rendu évènementiel connu du destinataire</documentation>
+							</annotation>
+						</element>
+						<element name="ReceiversInformation" nillable="false" minOccurs="0" maxOccurs="unbounded">
+							<annotation>
+								<documentation>Informations relatives aux destinataires du compte-rendu évènementiel</documentation>
+							</annotation>
+							<complexType>
+								<sequence>
+									<element name="ReceiverReference" type="tns:ParameterType" nillable="false" minOccurs="0">
+										<annotation>
+											<documentation>Référence du destinataire</documentation>
+										</annotation>
+									</element>
+									<element name="Contact" type="tns:ContactType" nillable="false" minOccurs="0" maxOccurs="unbounded">
+										<annotation>
+											<documentation>Informations de la "personne "associée" :  destinataire du compte-rendu évènementiel</documentation>
+										</annotation>
+									</element>
+								</sequence>
+							</complexType>
+						</element>
+						<element name="Service">
+							<complexType>
+								<sequence>
+									<element name="ServiceIDIssued" type="tns:IdentifierType" nillable="false"/>
+									<element name="ServiceIDDestination" type="tns:IdentifierType" nillable="false" minOccurs="0"/>
+								</sequence>
+							</complexType>
+						</element>
+						<element name="RefDomainAdminSource" type="tns:RefDomainAdmin"/>
+						<element name="RefDomainAdminTarget" type="tns:RefDomainAdmin" minOccurs="0"/>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="AttachedFileType">
+		<annotation>
+			<documentation>Type contenant les pièces jointes</documentation>
+		</annotation>
+		<sequence>
+			<element name="FileName" type="string" nillable="false">
+				<annotation>
+					<documentation>Nom du fichier</documentation>
+				</annotation>
+			</element>
+			<element name="ServerAlias" type="string" nillable="false">
+				<annotation>
+					<documentation>Alias du nom du serveur de PJ</documentation>
+				</annotation>
+			</element>
+			<element name="Path" type="string" nillable="false">
+				<annotation>
+					<documentation>Chemin d'accès au fichier (sans le nom du serveur et le nom du fichier)</documentation>
+				</annotation>
+			</element>
+			<element name="AttachedFileDate" type="date" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>Date</documentation>
+				</annotation>
+			</element>
+			<element name="Comment" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>Commentaire</documentation>
+				</annotation>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="ContactType">
+		<annotation>
+			<documentation>Type contact</documentation>
+		</annotation>
+		<sequence>
+			<element name="Type" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Type de partenaire : Titulaire, CT, SAV, demandeur, GCC, pilote de livraison, correspondant extrémité A, ...</documentation>
+				</annotation>
+			</element>
+			<element name="ID" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant profil métier de l'utilisateur</documentation>
+				</annotation>
+			</element>
+			<element name="EntityDescription" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Libellé de l'entité "contact"</documentation>
+				</annotation>
+			</element>
+			<element name="EntityID" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant de l'entité "contact"</documentation>
+				</annotation>
+			</element>
+			<element name="UserID" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant de l'utilisateur</documentation>
+				</annotation>
+			</element>
+			<element name="Title" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Civilité de l'utilisateur</documentation>
+				</annotation>
+			</element>
+			<element name="LastName" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Nom de l'utilisateur</documentation>
+				</annotation>
+			</element>
+			<element name="FirstName" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Prénom de l'utilisateur</documentation>
+				</annotation>
+			</element>
+			<element name="Localization" type="tns:LocalizationType" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>Localisation</documentation>
+				</annotation>
+			</element>
+			<element name="Phone" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Téléphone Professionel de l'utilsateur</documentation>
+				</annotation>
+			</element>
+			<element name="MobilePhone" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Mobile Professionel de l'utilsateur</documentation>
+				</annotation>
+			</element>
+			<element name="Fax" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Fax Professionel de l'utilisateur</documentation>
+				</annotation>
+			</element>
+			<element name="Email" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Contact "messagerie" de l'utilisateur</documentation>
+				</annotation>
+			</element>
+			<element name="CorporateInformations" type="tns:CorporateInformationsType" minOccurs="0">
+				<annotation>
+					<documentation>Informations de l'établissement auquel appartient le contact</documentation>
+				</annotation>
+			</element>
+			<element name="Parameter" type="tns:ParameterType" nillable="false" minOccurs="0" maxOccurs="unbounded">
+				<annotation>
+					<documentation>Liste des paramètres associés : code NSC... </documentation>
+				</annotation>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="ComplexCommentType">
+		<annotation>
+			<documentation>Type commentaire complexe</documentation>
+		</annotation>
+		<sequence>
+			<element name="Type" type="string" nillable="true">
+				<annotation>
+					<documentation>prend comme valeur COMMERCIAL (Production, Commentaire projet, commentaire DC) ou PRODUCTION (Commentaire Technique , Commentaire Production) ou SITE (commentaires non renseignés entre DR et DO pour l'étape 1 OSSP)</documentation>
+				</annotation>
+			</element>
+			<element name="Issuer" type="string" nillable="true" minOccurs="0"/>
+			<element name="Comment" type="string" nillable="false"/>
+			<element name="CommentDate" type="dateTime" nillable="true" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="IdentifierType">
+		<annotation>
+			<documentation>Type identifiants</documentation>
+		</annotation>
+		<sequence>
+			<element name="UserID" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant externe, connu de l'utilisateur</documentation>
+				</annotation>
+			</element>
+			<element name="ReferentialID" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant référent</documentation>
+				</annotation>
+			</element>
+			<element name="InternalID" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant interne</documentation>
+				</annotation>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="LocalizationType">
+		<annotation>
+			<documentation>Type localisation</documentation>
+		</annotation>
+		<sequence>
+			<element name="Address1" type="string" nillable="false">
+				<annotation>
+					<documentation>Adresse : Numéro et libellé voie</documentation>
+				</annotation>
+			</element>
+			<element name="Address2" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Complément d'adresse : Bâtiment, résidence</documentation>
+				</annotation>
+			</element>
+			<element name="Floor" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Etage, pour les sites internationnaux</documentation>
+				</annotation>
+			</element>
+			<element name="Office" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Bureau, Porte, ...</documentation>
+				</annotation>
+			</element>
+			<element name="Complement" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Emplacement des équipements (pièce/travée/bati/rack/slot par exemple)</documentation>
+				</annotation>
+			</element>
+			<element name="POBox" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>Lieu dit, boîte postale</documentation>
+				</annotation>
+			</element>
+			<element name="PostCode" type="string" nillable="false">
+				<annotation>
+					<documentation>Code Postal</documentation>
+				</annotation>
+			</element>
+			<element name="City" type="string" nillable="false">
+				<annotation>
+					<documentation>Bureau distributeur</documentation>
+				</annotation>
+			</element>
+			<element name="CityID" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant du bureau distributeur (code INSEE)</documentation>
+				</annotation>
+			</element>
+			<element name="State" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Etat, Province, ...</documentation>
+				</annotation>
+			</element>
+			<element name="Country" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Pays</documentation>
+				</annotation>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="MovementOrActionType">
+		<annotation>
+			<documentation>Description des données relatives aux mouvements et au actions</documentation>
+		</annotation>
+		<sequence>
+			<element name="Code">
+				<annotation>
+					<documentation>flux/action C, M, R ou A respectivement CREATION, MODIFICATION, RESILIATION ou ANNULATION</documentation>
+				</annotation>
+			</element>
+			<element name="Complement" minOccurs="0" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="Group" minOccurs="0">
+							<annotation>
+								<documentation>Raison de la modification ou de l'annulation Type ou Nature</documentation>
+							</annotation>
+							<complexType/>
+						</element>
+						<element name="Value" minOccurs="0">
+							<annotation>
+								<documentation>valeur associée à la balise Group (pour OPUS "Motif de refus")</documentation>
+							</annotation>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="ParameterType">
+		<annotation>
+			<documentation>Type parametre</documentation>
+		</annotation>
+		<sequence>
+			<element name="Code" type="string" nillable="false">
+				<annotation>
+					<documentation>code du paramètre</documentation>
+				</annotation>
+			</element>
+			<element name="Name" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>libellé du paramètre</documentation>
+				</annotation>
+			</element>
+			<element name="Value" type="string" nillable="false" maxOccurs="unbounded">
+				<annotation>
+					<documentation>valeur associée au paramètre</documentation>
+				</annotation>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="ParameterListType">
+		<annotation>
+			<documentation>Type Liste de paramètres</documentation>
+		</annotation>
+		<sequence>
+			<element name="Section" type="string" nillable="true">
+				<annotation>
+					<documentation>Regroupement logique</documentation>
+				</annotation>
+			</element>
+			<element name="SectionComplement" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Caractérise la catégorie SPECIFIQUE : ROUTEUR, SUPPORT, ...</documentation>
+				</annotation>
+			</element>
+			<element name="Parameters" type="tns:ParameterType" minOccurs="0" maxOccurs="unbounded">
+				<annotation>
+					<documentation>Caractéristiques de la prestation</documentation>
+				</annotation>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="SimplifiedCommentType">
+		<annotation>
+			<documentation>Type commentaire simplifié</documentation>
+		</annotation>
+		<sequence>
+			<element name="MessageCommentaire" type="string" nillable="false"/>
+			<element name="DateCommentaire" type="dateTime" nillable="true" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="CorporateInformationsType">
+		<annotation>
+			<documentation>Type Informations Etablissement</documentation>
+		</annotation>
+		<sequence>
+			<element name="CorporateName" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Raison sociale de la compagnie d'appartenance</documentation>
+				</annotation>
+			</element>
+			<element name="CorporatePhone" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Téléphone du service ou du secrétariat</documentation>
+				</annotation>
+			</element>
+			<element name="SIREN" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant de la compagnie d'appartenance / N° de SIREN</documentation>
+				</annotation>
+			</element>
+			<element name="SIRET" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant de l'entité / établissement d'appartenance / N° de SIRET</documentation>
+				</annotation>
+			</element>
+			<element name="IDETA" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant de l'entité / établissement d'appartenance / N° de SIRET</documentation>
+				</annotation>
+			</element>
+			<element name="NAF" type="string" nillable="true" minOccurs="0">
+				<annotation>
+					<documentation>Code NAF de la compagnie d'appartenance</documentation>
+				</annotation>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="RefDomainAdmin">
+		<annotation>
+			<documentation> Type domaine de référence</documentation>
+		</annotation>
+		<sequence>
+			<element name="Domain" type="string" nillable="false">
+				<annotation>
+					<documentation>identifiant du domaine de référence pour lequel sont définies les données suivantes</documentation>
+				</annotation>
+			</element>
+			<element name="DomainAdd" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>Identifiant complément du domaine de référence</documentation>
+				</annotation>
+			</element>
+			<element name="Repository" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>identifiant du référentiel porteur de l'objet</documentation>
+				</annotation>
+			</element>
+			<element name="Tool" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>identifiant de l'outil principal associé à l'objet pour le domaine</documentation>
+				</annotation>
+			</element>
+			<element name="OwnerProfile" type="string" nillable="false" minOccurs="0">
+				<annotation>
+					<documentation>identifiant du profil de propriétaire pour le domaine</documentation>
+				</annotation>
+			</element>
+			<element name="OwnerOrganization" type="string" nillable="false">
+				<annotation>
+					<documentation>identifiant de l'entité/organisation enregistrée comme propriétaire pour le domaine</documentation>
+				</annotation>
+			</element>
+		</sequence>
+	</complexType>
+</schema>

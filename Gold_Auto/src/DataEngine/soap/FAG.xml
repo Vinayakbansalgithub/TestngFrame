@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:root="http://www.orange.com/GOLD/Interfaces/ManageLocation/ResourceInventory/v1/root">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns2:FindAndGetSite xmlns:ns2="http://www.orange.com/GOLD/Interfaces/ManageLocation/ResourceInventory/v1/root">
+    <SiteFindCriteria>
+         <orangeSiteName>delh</orangeSiteName>
+       
+        <PartyRole>
+            <partyRoleType>Owner</partyRoleType>
+            <Party>
+                <partyID>673542</partyID>
+            </Party>
+        </PartyRole>
+        <Address>
+            <Country>
+                <countryCode>IND</countryCode>
+            </Country>
+        </Address>
+    </SiteFindCriteria>
+    <FilterCriteriaSite>
+        <maxWishedResults>10</maxWishedResults>
+        <restartRange>0</restartRange>
+    </FilterCriteriaSite>
+</ns2:FindAndGetSite>
+ 
+   </soapenv:Body>
+</soapenv:Envelope>
