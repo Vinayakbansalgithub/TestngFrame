@@ -101,7 +101,7 @@ public class Homepage {
 			String Budget,String bhk) throws Exception {
 
 		System.out.println(driver);
-
+System.out.println(driver);
 		
 		Thread.sleep(6000);
 
