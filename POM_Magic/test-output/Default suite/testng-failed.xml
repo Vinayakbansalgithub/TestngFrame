@@ -3,17 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="MB.testcases.PropertySearchTest">
+      <class name="MB.testcases.LoginTest">
         <methods>
-          <include name="close"/>
-          <include name="login"/>
+          <include name="sampleTest" invocation-numbers="0"/>
           <include name="checkRunMode"/>
-          <include name="searchproperty"/>
+          <include name="close"/>
           <include name="init"/>
-          <include name="verifyPriceResult" invocation-numbers="0"/>
           <include name="testQuitDriver"/>
         </methods>
-      </class> <!-- MB.testcases.PropertySearchTest -->
+      </class> <!-- MB.testcases.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

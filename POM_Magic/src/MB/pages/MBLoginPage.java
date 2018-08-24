@@ -59,7 +59,9 @@ public class MBLoginPage {
 		TestCore.log.info("Pass  "+"User is sucessfully logged in to the application ");
 		
 		Reporter.log("User is sucessfully logged in to the application ");
+		 
 		
+		// test null
 		TestCore.test.log(LogStatus.PASS,"User is sucessfully logged in to the application");
 		
 		return PageFactory.initElements(driver, MBLoginPage.class);

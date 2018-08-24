@@ -1,24 +1,15 @@
 package MB.core;
 
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import org.apache.log4j.Logger;
-
-
-
 import org.apache.log4j.xml.DOMConfigurator;
 
 import MB.utils.SendReport;
@@ -27,9 +18,12 @@ import MB.utils.excel_reader;
 
 
 
+
+
+
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
 
 
 
@@ -61,6 +55,10 @@ public class TestCore {
 	public static void init() throws Exception{
 		
 		
+		System.out.println("we are in before suite");
+
+		
+		
 		DOMConfigurator.configure("src//Util//Log4j.xml");
 		
 
@@ -77,73 +75,6 @@ public class TestCore {
 		
 		
 		
-		if(driver == null){
-			
-		
-			
-			//Load the Config Properties file
-			
-			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\config\\config.properties");
-			config.load(fis);
-			app_logs.debug("Config property file loaded");
-		
-			/*//Load the Object Properties file
-			fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\config\\OR.properties");
-			object.load(fis);
-			app_logs.debug("Object property file loaded");*/
-			
-	
-			//load the Excel file
-			excel = new excel_reader(System.getProperty("user.dir")+"\\src\\MB\\testdata\\testdata.xlsx");
-			app_logs.debug("Excel file loaded");
-			//Initialize the WebDriver
-			if(config.getProperty("browser").equals("firefox")){
-				
-				
-				System.setProperty("webdriver.firefox.marionette",
-						System.getProperty("user.dir")+"\\src\\driver\\geckodriver.exe");
-
-				
-				
-				
-
-				driver = new FirefoxDriver();
-				
-		    	//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\driver\\geckodriver.exe");
-		    	
-		    	/* DesiredCapabilities capabilities = new DesiredCapabilities();
-
-		    	 capabilities = DesiredCapabilities.firefox();
-		    	 capabilities.setBrowserName("firefox");
-		    	 capabilities.setVersion("your firefox version");
-		    	 capabilities.setPlatform(Platform.WINDOWS);
-		    	 capabilities.setCapability("marionette", false);
-
-		    	 //WebDriver driver = new FirefoxDriver(capabilities);
-		    	  * 
-		    	  * 
-*/		
-			
-			
-			app_logs.debug("Firefox driver initialized");
-			}else if(config.getProperty("browser").equals("ie")){
-				
-				
-				System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\src\\driver\\IEDriverServer.exe");
-				driver = new InternetExplorerDriver();
-			}else if(config.getProperty("browser").equals("chrome")){
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\driver\\chromedriver.exe");
-				driver = new ChromeDriver();
-				
-				
-				driver.manage().window().maximize();
-			}
-			
-			driver.get(config.getProperty("testsite"));
-
-			
-			
-			
 			
 			
 			
@@ -171,7 +102,7 @@ public class TestCore {
 			
 			
 			
-		}
+		
 		
 		
 		
@@ -182,11 +113,15 @@ public class TestCore {
 	}
 	
 	
-	@AfterSuite
+	@AfterSuite(alwaysRun = true)
 	public static void testQuitDriver() throws Exception {
 		
+		
+		System.out.println("we are in after suite");
+		
+		Thread.sleep(3000);
 		  
-		  reports.flush();
+		 reports.flush();
 		  reports.close();
 		
 		
@@ -198,7 +133,7 @@ public class TestCore {
 		
 		
 		
-		SendReport.sendmail();
+	//	SendReport.sendmail();
 		
 	}
 	

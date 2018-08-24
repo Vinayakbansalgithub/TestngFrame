@@ -1,20 +1,27 @@
 package MB.utils;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.List;
+import java.util.Properties;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestContext;
 
+import MB.core.TestCore;
 import MB.pages.MBLoginPage;
 
 
 public class Utility {
-	
-	
-	
 	
 	
 	
@@ -169,8 +176,80 @@ if(frompage.contains("Cr")){
 			
 			
 		}
-
 		
+		public static  void  startbrowser() throws Exception{
+			
+			if(TestCore.driver == null){
+				
+				
+				
+				//Load the Config Properties file
+				
+				FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\config\\config.properties");
+				TestCore.config.load(fis);
+				TestCore.app_logs.debug("Config property file loaded");
+			
+				/*//Load the Object Properties file
+				fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\config\\OR.properties");
+				object.load(fis);
+				app_logs.debug("Object property file loaded");*/
+				
+		
+				//load the Excel file
+				TestCore.excel = new excel_reader(System.getProperty("user.dir")+"\\src\\MB\\testdata\\testdata.xlsx");
+				TestCore.app_logs.debug("Excel file loaded");
+				
+				
+				//Initialize the WebDriver
+				if(TestCore.config.getProperty("browser").equals("firefox")){
+					
+					
+					System.setProperty("webdriver.firefox.marionette",
+							System.getProperty("user.dir")+"\\src\\driver\\geckodriver.exe");
+
+					
+					
+					
+
+					TestCore.driver = new FirefoxDriver();
+					
+			    	//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\driver\\geckodriver.exe");
+			    	
+			    	/* DesiredCapabilities capabilities = new DesiredCapabilities();
+
+			    	 capabilities = DesiredCapabilities.firefox();
+			    	 capabilities.setBrowserName("firefox");
+			    	 capabilities.setVersion("your firefox version");
+			    	 capabilities.setPlatform(Platform.WINDOWS);
+			    	 capabilities.setCapability("marionette", false);
+
+			    	 //WebDriver driver = new FirefoxDriver(capabilities);
+			    	  * 
+			    	  * 
+	*/		
+				
+				
+					TestCore.app_logs.debug("Firefox driver initialized");
+				}else if(TestCore.config.getProperty("browser").equals("ie")){
+					
+					
+					System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\src\\driver\\IEDriverServer.exe");
+					TestCore.driver = new InternetExplorerDriver();
+				}else if(TestCore.config.getProperty("browser").equals("chrome")){
+					System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\driver\\chromedriver.exe");
+					TestCore.driver = new ChromeDriver();
+					
+					
+					TestCore.driver.manage().window().maximize();
+				}
+				
+				TestCore.driver.get(TestCore.config.getProperty("testsite"));
+
+			
+		}
+
+
+		}		
 	
 
 }

@@ -135,7 +135,7 @@ public class SendReport {
 			
 			Thread.sleep(6000);
 			
-			String filename=System.getProperty("user.dir")+"\\test-output\\Default suite\\Default test.html";
+			String filename=System.getProperty("user.dir")+"\\test-output\\Relevent-report\\MyOwnReport.html";
 			DataSource source = new FileDataSource(filename);
 			
 			messageBodyPart.setDataHandler(new DataHandler(source));

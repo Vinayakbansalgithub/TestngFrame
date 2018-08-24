@@ -25,15 +25,24 @@ public class PropertySearchTest extends TestCore {
 	public static boolean resultTC = true;
 
 	@BeforeTest
-	public void checkRunMode() {
-
+	public void checkRunMode() throws Exception {
 		
-		TestCore.test=reports.startTest("Property search test case");	
 
 		xls = new excel_reader(System.getProperty("user.dir")
 				+ "\\src\\MB\\testdata\\testdata.xlsx");
-		if (!Utility.isExecutable("LandingPageTest", xls))
+		
+		if (!Utility.isExecutable(this.getClass().getSimpleName(), xls)) {
 			throw new SkipException("Skipping the test");
+		} else {
+
+			//System.out.println("  2nd test has been started");
+
+			TestCore.test = reports.startTest("Property search test case");
+
+
+			
+			Utility.startbrowser();
+		}
 
 	}
 
@@ -73,13 +82,10 @@ public class PropertySearchTest extends TestCore {
 
 		SearchResultPage srp = new SearchResultPage(driver);
 
-		// srp.verifyHeading(Property_Type);
+	
 		srp.verifySociety(socity);
+
 		
-		
-		/*
-		 * srp.verifyBHK(bhk); srp.verifyPrice(BudgetBuy);
-		 */
 
 	}
 
@@ -107,11 +113,9 @@ public class PropertySearchTest extends TestCore {
 
 	@AfterTest
 	public void close() {
-		
-		
+
 		reports.endTest(test);
-		
-		
+
 		driver.close();
 
 		TestCore.emailBody.append(" <tr>");
@@ -130,7 +134,6 @@ public class PropertySearchTest extends TestCore {
 
 		TestCore.emailBody.append("<td>" + config.getProperty("browser")
 				+ "</td>");
-		
 
 		TestCore.emailBody.append("</tr>");
 
