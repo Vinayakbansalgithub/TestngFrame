@@ -106,6 +106,7 @@ System.out.println(driver);
 		Thread.sleep(6000);
 
 		System.out.println("here");
+System.out.println("here");
 		Home_Buy.click();
 		
 		Thread.sleep(6000);
